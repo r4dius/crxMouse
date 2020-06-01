@@ -1,0 +1,114 @@
+#crxmousecanvas{
+	background:transparent !important;}
+	
+#infoshowmjidkpedjlfnanainpdfnedkdlacidla{
+	padding:0;
+	background:transparent !important;
+	position:fixed;
+	left:0;
+	top:0;
+	text-align:center;
+	z-index:1000 !important;
+	font:12px Arial,SimSun,sans-serif;
+	}
+
+#infoshowmjidkpedjlfnanainpdfnedkdlacidla img{
+	padding:0;
+	border:none;
+	/*padding-top:3px;*/
+	font-size:12px;}
+#svgdivmjidkpedjlfnanainpdfnedkdlacidla > svg{
+	top: 0;
+	left: 0;
+}
+#dirshowmjidkpedjlfnanainpdfnedkdlacidla{
+	padding:0;
+	border-radius:3px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	/*padding:3px 0;
+	padding-top:3px;*/
+	}
+	
+#tipshowmjidkpedjlfnanainpdfnedkdlacidla{
+	background:transparent !important;
+	text-align:center;
+	margin-top:5px;
+	font-weight:bold;
+	text-shadow:0 0 2px  #FFFFFF;
+	}
+
+#svgdivmjidkpedjlfnanainpdfnedkdlacidla{
+	position:fixed !important;
+	left:0px !important;
+	top:0px !important;
+	display:block !important;
+	/*z-index:1000000 !important;
+	z-index:-1 !important;*/
+	background:transparent !important;
+	border:none !important;
+	}
+
+#crxmousetablist{
+	position:fixed;
+	z-index:10000;
+	border:#CCC solid 1px;
+	background-color:/*rgba(53, 53, 80,.9)*/rgba(0, 0, 0,.8);
+	border-radius:3px;
+	width:400px;
+	padding:3px;
+	text-align:left !important;
+	color: #FFF/*rgb(3, 253, 23)*/;
+	font-size:14px;
+	box-shadow:0 0 9px rgb(46, 45, 51);}
+	
+.crxmousetablisttab{
+	display:block;
+	border:transparent solid 1px;
+	padding:5px 10px;
+	margin:1px 0;
+	white-space:nowrap;
+	overflow:hidden;}
+
+.crxmousetablisttab img{
+	width:16px;
+	height:16px;}
+	
+#crxmousetablisttabcurrent{
+	/*background:#633 !important;*/
+	color:#000;
+	text-shadow: #000 1px 1px 3px;
+	border: solid 1px #bcd;
+	border-radius: 2px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f5fc), color-stop(1, #e0e9f4));
+	background: -webkit-gradient(linear, left top, left bottom, 
+		color-stop(0, #fff),  color-stop(0.4, hsl(215, 67%, 97%)), color-stop(0.41, hsl(213, 48%, 95%)));
+
+	/*?border: solid 1px #c5cdd3;
+	?background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f9fe), color-stop(1, #e8f1f9));*/
+	}
+	
+#crxmousedown,#notifiboxmjidkpedjlfnanainpdfnedkdlacidla{
+	position:fixed;
+	top:-10px;
+	z-index:1000;
+	height: 40px;
+	line-height: 45px;
+	min-width:200px;
+	background-color:rgba(18,20,133,.7);	
+	border: solid 1px #cde;
+	border-radius: 10px;
+	padding: 5px 10px;
+	box-shadow:0 0 10px rgb(250,100,0);
+	color: #FFF;
+	text-align: center;
+	font-size:14px;
+	font-weight:bold;
+	}
+
+#idcheckbox{
+	position:fixed;
+	top:0;
+	z-index:100;
+	background:#F00;}

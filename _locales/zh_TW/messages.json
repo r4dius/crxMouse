@@ -1,0 +1,1001 @@
+{
+   "G_back": {
+      "message": "上一章"
+   },
+   "G_bookmark": {
+      "message": "添加書籤"
+   },
+   "G_bookmarks": {
+      "message": "書籤管理員"
+   },
+   "G_bottom": {
+      "message": "到底部"
+   },
+   "G_capture": {
+      "message": "截圖"
+   },
+   "G_chromepage": {
+      "message": "打開Chrome內部地址"
+   },
+   "G_close": {
+      "message": "關閉分頁"
+   },
+   "G_closelefttabs": {
+      "message": "關閉所有左側分頁"
+   },
+   "G_closeothers": {
+      "message": "關閉其他分頁"
+   },
+   "G_closerighttabs": {
+      "message": "關閉所有右側分頁"
+   },
+   "G_closewindow": {
+      "message": "關閉視窗"
+   },
+   "G_closewindows": {
+      "message": "關閉所有視窗"
+   },
+   "G_copyaslink": {
+      "message": "複製當前頁標題和網址為鏈接"
+   },
+   "G_copytab": {
+      "message": "複製當前分頁"
+   },
+   "G_copytitle": {
+      "message": "複製當前頁標題"
+   },
+   "G_copyurl": {
+      "message": "複製當前頁網址"
+   },
+   "G_copyuser": {
+      "message": "複製標題及網址為自定義格式"
+   },
+   "G_crxsettings": {
+      "message": "進入擴充設定頁"
+   },
+   "G_down": {
+      "message": "向下滾動"
+   },
+   "G_downloads": {
+      "message": "下載內容"
+   },
+   "G_firsttab": {
+      "message": "首分頁"
+   },
+   "G_fullscreen": {
+      "message": "全屏"
+   },
+   "G_go": {
+      "message": "下一章"
+   },
+   "G_goparent": {
+      "message": "轉到上一級目錄"
+   },
+   "G_history": {
+      "message": "記錄"
+   },
+   "G_incognito": {
+      "message": "新增無痕式視窗"
+   },
+   "G_lasttab": {
+      "message": "尾分頁"
+   },
+   "G_lefttab": {
+      "message": "左側分頁"
+   },
+   "G_movetowindow": {
+      "message": "分離分頁"
+   },
+   "G_newtab": {
+      "message": "新增分頁"
+   },
+   "G_newtabback": {
+      "message": "新增分頁(後台)"
+   },
+   "G_newusertab": {
+      "message": "打開自定義網站..."
+   },
+   "G_newusertabback": {
+      "message": "打開自定義網站(後台)..."
+   },
+   "G_newusertabcur": {
+      "message": "打開自定義網站(覆蓋當前)..."
+   },
+   "G_newwindow": {
+      "message": "新增視窗"
+   },
+   "G_none": {
+      "message": "無"
+   },
+   "G_openclipurl": {
+      "message": "嘗試打開剪貼板中的網址"
+   },
+   "G_pin": {
+      "message": "固定分頁"
+   },
+   "G_reclosedtab": {
+      "message": "重新開啟已關閉分頁"
+   },
+   "G_reload": {
+      "message": "重新載入"
+   },
+   "G_reloadall": {
+      "message": "重新載入所有分頁"
+   },
+   "G_reloadclear": {
+      "message": "忽略緩存而重新載入"
+   },
+   "G_reloadframe": {
+      "message": "重新載入框架"
+   },
+   "G_righttab": {
+      "message": "右側分頁"
+   },
+   "G_settings": {
+      "message": "chrome瀏覽器設定"
+   },
+   "G_stop": {
+      "message": "停止載入此網頁"
+   },
+   "G_stopall": {
+      "message": "停止所有分頁載入"
+   },
+   "G_top": {
+      "message": "到頂部"
+   },
+   "G_tostop": {
+      "message": "在當前頁臨時禁用本擴充功能"
+   },
+   "G_trynext": {
+      "message": "嘗試轉到下一章"
+   },
+   "G_tryprev": {
+      "message": "嘗試轉到上一章"
+   },
+   "G_up": {
+      "message": "向上滾動"
+   },
+   "G_userscript": {
+      "message": "運行自定義腳本..."
+   },
+   "G_viewsource": {
+      "message": "查看網頁源代碼"
+   },
+   "G_windowmax": {
+      "message": "最大化視窗"
+   },
+   "G_windowmin": {
+      "message": "最小化視窗"
+   },
+   "I_copyurl": {
+      "message": "複製此圖片網址"
+   },
+   "I_open": {
+      "message": "新標籤中打開圖片"
+   },
+   "I_openback": {
+      "message": "新標籤中打開圖片（後台）"
+   },
+   "I_save": {
+      "message": "保存圖片(Dev Only)"
+   },
+   "I_saveback": {
+      "message": "圖片另存為(Dev Only)..."
+   },
+   "I_sbaidu": {
+      "message": "使用百度搜尋此圖片"
+   },
+   "I_sbaiduback": {
+      "message": "使用百度搜尋此圖片(後台)"
+   },
+   "I_search": {
+      "message": "搜尋此圖片"
+   },
+   "I_searchuser": {
+      "message": "使用自定義搜尋引擎搜尋此圖片"
+   },
+   "I_sgoogle": {
+      "message": "使用Google搜尋此圖片"
+   },
+   "I_sgoogleback": {
+      "message": "使用Google搜尋此圖片(後台)"
+   },
+   "I_stineye": {
+      "message": "使用TinEye搜尋此圖片"
+   },
+   "I_stineyeback": {
+      "message": "使用TinEye搜尋此圖片(後台)"
+   },
+   "L_bookmark": {
+      "message": "添加書籤"
+   },
+   "L_copyaslink": {
+      "message": "複製文字及網址為鏈接"
+   },
+   "L_copytext": {
+      "message": "複製鏈接文字"
+   },
+   "L_copyurl": {
+      "message": "複製鏈接地址"
+   },
+   "L_copyuser": {
+      "message": "複製文字及網址為自定義格式"
+   },
+   "L_open": {
+      "message": "新標籤中打開鏈接"
+   },
+   "L_openback": {
+      "message": "新標籤中打開鏈接（後台）"
+   },
+   "T_copytext": {
+      "message": "複製文字"
+   },
+   "T_gsearch": {
+      "message": "使用Google搜尋:\"%s\""
+   },
+   "T_gsearchback": {
+      "message": "使用google搜尋(後台):\"%s\""
+   },
+   "T_samazon": {
+      "message": "使用Amazon搜尋:\"%s\""
+   },
+   "T_samazonback": {
+      "message": "使用Amazon搜尋(後台):\"%s\""
+   },
+   "T_sbaidu": {
+      "message": "使用百度搜尋:\"%s\""
+   },
+   "T_sbaiduback": {
+      "message": "使用百度搜尋(後台):\"%s\""
+   },
+   "T_sbing": {
+      "message": "使用Bing搜尋:\"%s\""
+   },
+   "T_sbingback": {
+      "message": "使用Bing搜尋(後台):\"%s\""
+   },
+   "T_search": {
+      "message": "搜尋拖動文字"
+   },
+   "T_searchuser": {
+      "message": "自定義搜尋..."
+   },
+   "T_searchuserback": {
+      "message": "自定義搜尋(後台)..."
+   },
+   "T_staobao": {
+      "message": "使用淘寶搜尋:\"%s\""
+   },
+   "T_staobaoback": {
+      "message": "使用淘寶搜尋(後台):\"%s\""
+   },
+   "T_swiki": {
+      "message": "使用wikipedia搜尋:\"%s\""
+   },
+   "T_swikiback": {
+      "message": "使用wikipedia搜尋(後台):\"%s\""
+   },
+   "T_syahoo": {
+      "message": "使用Yahoo搜尋:\"%s\""
+   },
+   "T_syahooback": {
+      "message": "使用Yahoo搜尋(後台):\"%s\""
+   },
+   "T_syandex": {
+      "message": "使用Yandex搜尋:\"%s\""
+   },
+   "T_syandexback": {
+      "message": "使用Yandex搜尋(後台):\"%s\""
+   },
+   "about": {
+      "message": "關於"
+   },
+   "addtipgesture": {
+      "message": "按住滑鼠右鍵，移動滑鼠畫出軌跡，鬆開右鍵並選取需要的操作."
+   },
+   "addtipimage": {
+      "message": "使用滑鼠左鍵拖動下面的圖片，然後畫出軌跡，鬆開滑鼠後選取相應的操作."
+   },
+   "addtiplink": {
+      "message": "使用滑鼠左鍵拖動下面的鏈接，並畫出軌跡，然後鬆開滑鼠並選取需要的操作."
+   },
+   "addtiptext": {
+      "message": "選中下面的文字，使用滑鼠左鍵拖動並畫出軌跡，然後鬆開滑鼠並選取需要的操作."
+   },
+   "advanced": {
+      "message": "進階設定"
+   },
+   "alertaction": {
+      "message": "請選擇需要的操作."
+   },
+   "alertconfigerror": {
+      "message": "導入的配置文件錯誤."
+   },
+   "alertname": {
+      "message": "還有地方沒填寫內容..."
+   },
+   "alertrepeat": {
+      "message": "手勢重複，請重試."
+   },
+   "alerttooltip": {
+      "message": "親輸入慾顯示的功能提示文字."
+   },
+   "alerturl": {
+      "message": "未輸入網址或網址錯誤."
+   },
+   "author": {
+      "message": "作者"
+   },
+   "bookmarkfailnotifi": {
+      "message": "書籤已經存在!"
+   },
+   "bookmarknotifi": {
+      "message": "添加書籤成功!"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "cancelcontextmenu": {
+      "message": "消除Linux/Mac右鍵菜單對本擴充的影響(\u003Cspan style='color:red'>雙擊彈出右鍵菜單\u003C/span>)."
+   },
+   "cancelcontextmenudes": {
+      "message": "該選項修復非Windows平台上,右鍵菜單影響某些功能的正常使用,強烈建議Linux/Mac用戶勾選此項."
+   },
+   "capturetype": {
+      "message": "截圖格式:"
+   },
+   "changelog": {
+      "message": "開發日誌"
+   },
+   "chrome": {
+      "message": "Chrome默認"
+   },
+   "clearsyncdata": {
+      "message": "清空同步數據"
+   },
+   "close": {
+      "message": "關閉"
+   },
+   "color": {
+      "message": "顏色："
+   },
+   "crbookmarks": {
+      "message": "書籤管理器"
+   },
+   "crdownloads": {
+      "message": "下載內容"
+   },
+   "crextensions": {
+      "message": "擴充功能程序"
+   },
+   "crflags": {
+      "message": "Chrome實驗室"
+   },
+   "crhistory": {
+      "message": "歷史記錄"
+   },
+   "crsettings": {
+      "message": "Chrome瀏覽器設置"
+   },
+   "curfront": {
+      "message": "覆蓋當前分頁"
+   },
+   "dbclicktime": {
+      "message": "雙擊間隔最長時間(ms):"
+   },
+   "delete": {
+      "message": "刪除"
+   },
+   "description": {
+      "message": "原名:Gestures for Chrome(TM)繁體版.方便,快捷,充分發掘鼠標的所有操作."
+   },
+   "descriptionjson": {
+      "message": "原名:Gestures for Chrome(TM)繁體版.方便,快捷,充分發掘鼠標的所有操作.功能包括:鼠標手勢,超級拖曳,滾輪手勢,搖桿手勢,平滑滾動,分頁列表等."
+   },
+   "dholdkey": {
+      "message": "按住以下鍵,臨時禁用超級拖曳:"
+   },
+   "direct": {
+      "message": "顯示軌跡方向提示"
+   },
+   "donate": {
+      "message": "支持開發"
+   },
+   "donate1": {
+      "message": "1,通過作者的淘寶店鋪\u003Ca href='http://shop102995334.taobao.com' target='_blank'>充話費,購點卡,買Q幣\u003C/ a>等;"
+   },
+   "donate2": {
+      "message": "3,捐贈作者以支持開發:"
+   },
+   "donatedes": {
+      "message": "如果你覺得CrxMouse還不錯,給你帶來了方便,可以通過以下方式支持作者開發,有您的支持,才有我繼續的動力:"
+   },
+   "downimgtooltip": {
+      "message": "正在保存圖片..."
+   },
+   "drag": {
+      "message": "超級拖曳"
+   },
+   "draginput": {
+      "message": "選中並拖動文本框中的文字時，使用超級拖曳."
+   },
+   "dragui": {
+      "message": "超級拖曳外觀"
+   },
+   "editgesture": {
+      "message": "編輯手勢"
+   },
+   "editimage": {
+      "message": "編輯 拖曳-圖片"
+   },
+   "editlink": {
+      "message": "編輯 拖曳-鏈接"
+   },
+   "editsgsleft": {
+      "message": "滾輪手勢-左鍵\u003Cbr />\u003Cspan class='opttitledes'>(按住滑鼠左鍵,然後滾動滾輪)\u003C/span>"
+   },
+   "editsgsright": {
+      "message": "滾輪手勢-右鍵\u003Cbr />\u003Cspan class='opttitledes'>(按住滑鼠右鍵,然後滾動滾輪)\u003C/span>"
+   },
+   "edittext": {
+      "message": "編輯 拖曳-文字"
+   },
+   "enabledragimage": {
+      "message": "啟用拖曳-圖片"
+   },
+   "enabledraglink": {
+      "message": "啟用拖曳-鏈接"
+   },
+   "enabledragtext": {
+      "message": "啟用拖曳-文字"
+   },
+   "enableui": {
+      "message": "啟用"
+   },
+   "export": {
+      "message": "導出"
+   },
+   "extauthor": {
+      "message": "WeKnowNet"
+   },
+   "extchangelog": {
+      "message": "000"
+   },
+   "extfeedback": {
+      "message": "任何問題,意見,建議.請通過以下方式與我取得聯絡: \u003Cbr />Email: \u003Ca href='mailto:tmdzhang@gmail.com' target='_blank '>tmdzhang@gmail.com\u003C/a>"
+   },
+   "extname": {
+      "message": "Gestures for Chrome(TM)繁體版，後期將更名為:CrxMouse，並使用新的logo，請知悉。"
+   },
+   "extnamejson": {
+      "message": "CrxMouse"
+   },
+   "extthanks": {
+      "message": "> \u003Ca href='http://ss-o.net/' target='_blank'>os0x\u003C/a> : \u003Ca href='https://chrome. google.com/extensions/detail/jpkfjicglakibpenojifdiepckckakgk' target='_blank'>Gestures for Chrome(TM)\u003C/a>的作者,因為此擴充功能,才萌生了寫CrxMouse的想法,且平滑滾動借用了該擴充功能.\u003Cbr />\r\n> \u003Ca href='http://looxu.blogspot.com/' target='_blank'>ArcCosine\u003C/a> : \u003Ca href='https://github.com/ArcCosine/userscript/blob/master/ simple_guestures.user.js' target='_blank'>simple_guestures script\u003C/a>的作者,部分代碼參考了此腳本.\u003Cbr />\r\n> \u003Ca href='http://odvarko.cz' target='_blank'>Jan Odvarko\u003C/a> : \u003Ca href='http://jscolor.com' target='_blank'>jscolor script\u003C/a>的作者,設置頁面中的取色,使用了此腳本.\u003Cbr />\r\n> 特別感謝幫助改進的朋友：黃琛,\u003Ca href='http://blog.sina.com.cn/u/1773846677' target='_blank'>夜盡天明\u003C/a>,還有其他眾多提供過反饋的朋友們!"
+   },
+   "extversion": {
+      "message": "Ver 2.0.1211.2501"
+   },
+   "fastreset": {
+      "message": "出了點小狀況,導致本擴充功能不能正常運行.請點擊此處重置為默認配置.如果依然無效,請將chrome升級到最新版本,至少ver23."
+   },
+   "feedback": {
+      "message": "反饋"
+   },
+   "fndrag": {
+      "message": "開啟超級拖曳"
+   },
+   "fngesture": {
+      "message": "開啟滑鼠手勢"
+   },
+   "fnscroll": {
+      "message": "開啟滑鼠滾輪功能"
+   },
+   "fnscrollgesture": {
+      "message": "開啟滾輪手勢"
+   },
+   "fnsmooth": {
+      "message": "啟用平滑滾動"
+   },
+   "fnstrokegesture": {
+      "message": "開啟搖桿手勢"
+   },
+   "fnbackgroundtab": {
+      "message": "開啟後台打開標籤頁"
+   },
+   "fnswitch": {
+      "message": "功能開啟"
+   },
+   "geskey": {
+      "message": "滑鼠手勢操作方式:"
+   },
+   "geskeydes": {
+      "message": "注:1,這只是為不能正常使用右鍵的Linux/Mac用戶提供一種替代方案,不建議Windows用戶修改此項;\u003Cbr />2,使用左鍵存在諸多問題,包括:不能選取文字,不能使用超級拖曳>拖曳文字,圖片/鏈接上不能使用手勢,某些頁面內操作會觸發手勢操作等等,此時可以配合下面這個設定來使用. "
+   },
+   "geskeyleft": {
+      "message": "滑鼠左鍵"
+   },
+   "geskeymiddle": {
+      "message": "滑鼠中鍵"
+   },
+   "geskeyright": {
+      "message": "滑鼠右鍵"
+   },
+   "gesture": {
+      "message": "滑鼠手勢"
+   },
+   "gestureui": {
+      "message": "滑鼠手勢外觀"
+   },
+   "gholdkey": {
+      "message": "按住以下鍵,臨時禁用滑鼠手勢:"
+   },
+   "head": {
+      "message": "首"
+   },
+   "help": {
+      "message": "幫助"
+   },
+   "howtablist": {
+      "message": "操作方式："
+   },
+   "image": {
+      "message": "圖片"
+   },
+   "imgfirst": {
+      "message": "按住以下鍵,將帶圖片的鏈接識別為圖片,以使用拖曳圖片功能:"
+   },
+   "imgfirstcheck": {
+      "message": "帶圖片的鏈接,優先識別為圖片,以使用拖曳圖片功能"
+   },
+   "import": {
+      "message": "導入"
+   },
+   "incog": {
+      "message": "無痕式視窗"
+   },
+   "jpegquality": {
+      "message": "截圖品質:"
+   },
+   "last": {
+      "message": "尾"
+   },
+   "lasttab": {
+      "message": "關閉最後一個標籤時，不關閉視窗(僅適用於手勢操作)."
+   },
+   "left": {
+      "message": "左"
+   },
+   "link": {
+      "message": "鏈接"
+   },
+   "linuxsettings": {
+      "message": "Linux/Mac選項"
+   },
+   "listaction": {
+      "message": "動作："
+   },
+   "listgesture": {
+      "message": "手勢："
+   },
+   "local": {
+      "message": "zh_TW"
+   },
+   "localtrans": {
+      "message": "true"
+   },
+   "minilength": {
+      "message": "手勢起效的最小長度(px):"
+   },
+   "moreCapturetypetitle": {
+      "message": "截圖格式"
+   },
+   "moreChromepagetitle": {
+      "message": "Chrome內部地址"
+   },
+   "moreCloseoptstitle": {
+      "message": "如果關閉的是最後一個分頁,是否關閉整個視窗?"
+   },
+   "moreCloseseltitle": {
+      "message": "關閉後,選中哪個分頁?"
+   },
+   "moreCloseurltitle": {
+      "message": "網址,如果不關閉視窗,則打開此網址"
+   },
+   "moreCopystyletitle": {
+      "message": "自定義格式,使用\"%title\"表示標題,\"%url\"表示網址,換行請使用\"\\n\""
+   },
+   "moreDes": {
+      "message": "功能提示文字，使用%name代替搜尋關鍵詞"
+   },
+   "moreDestitle": {
+      "message": "功能提示文字"
+   },
+   "moreIsearchtitle": {
+      "message": "圖片搜尋引擎"
+   },
+   "moreName": {
+      "message": "名稱"
+   },
+   "moreNametitle": {
+      "message": "名稱"
+   },
+   "morePinnedtitle": {
+      "message": "是否固定分頁"
+   },
+   "morePositiontitle": {
+      "message": "新分頁相噹噹前分頁的位置"
+   },
+   "moreScript": {
+      "message": "腳本"
+   },
+   "moreScripttitle": {
+      "message": "腳本內容"
+   },
+   "moreTarget": {
+      "message": "位置"
+   },
+   "moreTargettitle": {
+      "message": "打開新標籤的方式:新/當前標籤,前/後台"
+   },
+   "moreTsearchtitle": {
+      "message": "文字搜尋引擎"
+   },
+   "moreURL": {
+      "message": "網址"
+   },
+   "moreURLtitle": {
+      "message": "網址.使用\"%s\"表示搜尋關鍵詞"
+   },
+   "moreaboutdrag": {
+      "message": "細節設置"
+   },
+   "morecur": {
+      "message": "覆蓋當前分頁"
+   },
+   "morenew": {
+      "message": "新分頁,前台"
+   },
+   "morenewback": {
+      "message": "新分頁,後台"
+   },
+   "moresettings": {
+      "message": "更多設定"
+   },
+   "morestrges": {
+      "message": "細節設置"
+   },
+   "msgbox": {
+      "message": "配置已保存,部分設定需要重新載入分頁後才能起效."
+   },
+   "name": {
+      "message": "擴充名"
+   },
+   "newadd": {
+      "message": "新增"
+   },
+   "newback": {
+      "message": "新分頁,後台"
+   },
+   "newfront": {
+      "message": "新分頁,前台"
+   },
+   "newgesture": {
+      "message": "添加新手勢"
+   },
+   "newtabdes": {
+      "message": "打開%name"
+   },
+   "newtabposition": {
+      "message": "新增分頁相對當前標籤的位置："
+   },
+   "normal": {
+      "message": "基本設定"
+   },
+   "opa": {
+      "message": "透​​明度："
+   },
+   "optgrpapp": {
+      "message": "APP"
+   },
+   "optgrpcopy": {
+      "message": "複製"
+   },
+   "optgrpload": {
+      "message": "加載"
+   },
+   "optgrpnav": {
+      "message": "導航"
+   },
+   "optgrpnone": {
+      "message": "無"
+   },
+   "optgrpother": {
+      "message": "其他"
+   },
+   "optgrpsave": {
+      "message": "保存"
+   },
+   "optgrpscroll": {
+      "message": "滾動"
+   },
+   "optgrpsearch": {
+      "message": "搜尋"
+   },
+   "optgrptab": {
+      "message": "分頁"
+   },
+   "optgrptabnav": {
+      "message": "分頁導航"
+   },
+   "optgrpwindow": {
+      "message": "視窗"
+   },
+   "pinned": {
+      "message": "固定"
+   },
+   "placeholderconfig": {
+      "message": "將配置內容複製到這裡，然後點擊導入即可將完成配置導入；點擊導出後，當前擴充的配置信息將顯示在這裡，你可以復制，然後再行保存. "
+   },
+   "placeholdername": {
+      "message": "名稱"
+   },
+   "placeholderscript": {
+      "message": "腳本"
+   },
+   "placeholdersearchurl": {
+      "message": "網址，使用%s代替搜尋關鍵詞"
+   },
+   "placeholdertooltip": {
+      "message": "功能提示文字"
+   },
+   "placeholderurl": {
+      "message": "網址"
+   },
+   "port": {
+      "message": "導入/導出配置"
+   },
+   "porttip": {
+      "message": "注:1.導入配置後,將自動重啟本擴充功能,重啟後,已經打開的分頁需要刷新一次後,本擴充功能才能起效!\u003Cbr />2.建議只導入從這裡導出的配置,不建議手動修改配置文件,否則導入後可能會出現一些奇怪的問題.\u003Cbr />3.如遇錯誤,請重置為默認配置."
+   },
+   "poschrome": {
+      "message": "Chrome默認"
+   },
+   "poshead": {
+      "message": "首"
+   },
+   "poslast": {
+      "message": "尾"
+   },
+   "posleft": {
+      "message": "左"
+   },
+   "posright": {
+      "message": "右"
+   },
+   "rateus": {
+      "message": "LIKE US? RATE US!"
+   },
+   "reset": {
+      "message": "重置配置"
+   },
+   "resetall": {
+      "message": "重置所有配置"
+   },
+   "resetpage": {
+      "message": "重置本頁設定"
+   },
+   "resettip": {
+      "message": "注:該操作會清空當前的所有配置,並將配置重置為擴充功能的默認設置.該操作不能撤銷,請謹慎操作!"
+   },
+   "right": {
+      "message": "右"
+   },
+   "samazon": {
+      "message": "Amazon"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "sbaidu": {
+      "message": "百度"
+   },
+   "sbaiduimage": {
+      "message": "百度識圖"
+   },
+   "sbing": {
+      "message": "必應"
+   },
+   "scractdown": {
+      "message": "向下滾動:"
+   },
+   "scractup": {
+      "message": "向上滾動:"
+   },
+   "scriptdes": {
+      "message": "運行腳本:%name"
+   },
+   "scroll": {
+      "message": "滑鼠滾輪"
+   },
+   "scrollaccele": {
+      "message": "滾動加速值"
+   },
+   "scrolleffects": {
+      "message": "使用滾動特效(上/下滾動,到底部/頂部)."
+   },
+   "scrollgesture": {
+      "message": "滾輪手勢"
+   },
+   "scrollspeed": {
+      "message": "滾動速度"
+   },
+   "searchdes": {
+      "message": "使用%name搜尋:\"%s\""
+   },
+   "setdragurl": {
+      "message": "當拖動的文字為網址時,識別為拖曳鏈接(正則匹配得不夠理想,效果欠佳,慎用)."
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "sgoogle": {
+      "message": "Google"
+   },
+   "sgoogleimage": {
+      "message": "Google以圖搜圖"
+   },
+   "site": {
+      "message": "官網"
+   },
+   "smooth": {
+      "message": "平滑滾動"
+   },
+   "staobao": {
+      "message": "淘寶"
+   },
+   "stars": {
+      "message": "喜歡這個擴充功能? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>給CrxMouse評分\u003C/a>"
+   },
+   "stenable": {
+      "message": "使用左鍵時,可以選中文字(勾選此項,會造成很多時候滑鼠手勢失效!)"
+   },
+   "stineyeimage": {
+      "message": "TinEye"
+   },
+   "stractleft": {
+      "message": "點擊左鍵:"
+   },
+   "stractmiddle": {
+      "message": "點擊中鍵:"
+   },
+   "stractright": {
+      "message": "點擊右鍵:"
+   },
+   "strleft": {
+      "message": "按住滑鼠左鍵"
+   },
+   "strmiddle": {
+      "message": "按住滑鼠中鍵"
+   },
+   "stroke": {
+      "message": "顯示軌跡"
+   },
+   "strokegesture": {
+      "message": "搖桿手勢"
+   },
+   "strpress": {
+      "message": "觸發搖桿手勢的方式:"
+   },
+   "strpressdown": {
+      "message": "當按下滑鼠時"
+   },
+   "strpressup": {
+      "message": "當滑鼠彈起時"
+   },
+   "strright": {
+      "message": "按住滑鼠右鍵"
+   },
+   "swiki": {
+      "message": "維基百科"
+   },
+   "syahoo": {
+      "message": "雅虎"
+   },
+   "syandex": {
+      "message": "Yandex"
+   },
+   "sync": {
+      "message": "同步配置"
+   },
+   "syncdes": {
+      "message": "已\u003Ca href=\"https://accounts.google.com/ServiceLogin?service=chromiumsync\" target=\"_blank\">登錄Chrome\u003C/a >用戶,將自動同步配置文件."
+   },
+   "tablist": {
+      "message": "分頁列表"
+   },
+   "tablistkeyleft": {
+      "message": "按住滑鼠左鍵，並滾動滾輪."
+   },
+   "tablistkeyright": {
+      "message": "按住滑鼠右鍵，並滾動滾輪."
+   },
+   "testlink": {
+      "message": "測試鏈接"
+   },
+   "testwords": {
+      "message": "測試文字"
+   },
+   "text": {
+      "message": "文字"
+   },
+   "thanks": {
+      "message": "致謝"
+   },
+   "time": {
+      "message": "時長(s​​)："
+   },
+   "timeout": {
+      "message": "超過以下時間取消操作"
+   },
+   "titlechromepage": {
+      "message": "功能提示文字,使用\"%name\"替換Chrome內部地址名稱"
+   },
+   "titlecopyuser": {
+      "message": "功能提示文字,使用\"%name\"替換自定義格式名稱"
+   },
+   "titleisearch": {
+      "message": "功能提示文字,使用\"%name\"替換搜尋引擎名稱"
+   },
+   "titlenewusertab": {
+      "message": "功能提示文字,使用\"%name\"替換自定義網站名稱"
+   },
+   "titlenexpre": {
+      "message": "檢測的關鍵字,多個關鍵字間用\"|\"隔開,擴充將依次檢測rel,rev,id,innerHTML,title,class"
+   },
+   "titlesearchuser": {
+      "message": "網址.使用\"%s\"表示搜尋關鍵詞"
+   },
+   "titletsearch": {
+      "message": "功能提示文字,使用\"%name\"替換搜尋引擎名稱,\"%s\"替換欲搜尋的內容"
+   },
+   "titleuserscript": {
+      "message": "功能提示文字,使用\"%name\"替換腳本名稱"
+   },
+   "tooltip": {
+      "message": "顯示功能提示文字"
+   },
+   "unclose": {
+      "message": "不關閉,打開以下地址"
+   },
+   "unpinned": {
+      "message": "不固定"
+   },
+   "valuechromepage": {
+      "message": "打開%name"
+   },
+   "valueisearch": {
+      "message": "使用%name搜尋圖片"
+   },
+   "valuenewusertab": {
+      "message": "打開%name"
+   },
+   "valuenone": {
+      "message": "無"
+   },
+   "valuetsearch": {
+      "message": "使用%name搜尋:\"%s​​\""
+   },
+   "valueuserscript": {
+      "message": "運行腳本:\"%name\""
+   },
+   "version": {
+      "message": "版本"
+   },
+   "whencapture": {
+      "message": "使用截圖操作時:"
+   },
+   "width": {
+      "message": "寬度："
+   }
+}

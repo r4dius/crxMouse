@@ -1,0 +1,848 @@
+{
+   "G_back": {
+      "message": "后退"
+   },
+   "G_bookmark": {
+      "message": "添加书签"
+   },
+   "G_bottom": {
+      "message": "到底部"
+   },
+   "G_capture": {
+      "message": "截图"
+   },
+   "G_chromepage": {
+      "message": "打开Chrome内部地址"
+   },
+   "G_close": {
+      "message": "关闭标签页"
+   },
+   "G_closelefttabs": {
+      "message": "关闭左侧标签页"
+   },
+   "G_closeothers": {
+      "message": "关闭其他标签页"
+   },
+   "G_closerighttabs": {
+      "message": "关闭右侧标签页"
+   },
+   "G_closewindow": {
+      "message": "关闭窗口"
+   },
+   "G_closewindows": {
+      "message": "关闭所有窗口"
+   },
+   "G_copyaslink": {
+      "message": "复制当前页标题和网址为链接"
+   },
+   "G_copytab": {
+      "message": "复制当前标签"
+   },
+   "G_copytitle": {
+      "message": "复制当前页标题"
+   },
+   "G_copyurl": {
+      "message": "复制当前页网址"
+   },
+   "G_copyuser": {
+      "message": "复制标题及网址为自定义格式"
+   },
+   "G_crxsettings": {
+      "message": "进入扩展设置页"
+   },
+   "G_down": {
+      "message": "向下滚动"
+   },
+   "G_firsttab": {
+      "message": "首标签页"
+   },
+   "G_fullscreen": {
+      "message": "全屏"
+   },
+   "G_go": {
+      "message": "前进"
+   },
+   "G_goparent": {
+      "message": "转到上一级目录"
+   },
+   "G_incognito": {
+      "message": "新建隐身窗口"
+   },
+   "G_lasttab": {
+      "message": "尾标签页"
+   },
+   "G_lefttab": {
+      "message": "左侧标签页"
+   },
+   "G_movetowindow": {
+      "message": "分离标签页"
+   },
+   "G_newtab": {
+      "message": "新建标签页"
+   },
+   "G_newusertab": {
+      "message": "打开自定义网站..."
+   },
+   "G_newwindow": {
+      "message": "新建窗口"
+   },
+   "G_none": {
+      "message": "无"
+   },
+   "G_openclipurl": {
+      "message": "尝试打开剪贴板中的网址"
+   },
+   "G_pin": {
+      "message": "固定标签页"
+   },
+   "G_reclosedtab": {
+      "message": "重新打开关闭的标签页"
+   },
+   "G_reload": {
+      "message": "刷新"
+   },
+   "G_reloadall": {
+      "message": "刷新所有标签"
+   },
+   "G_reloadclear": {
+      "message": "强制刷新"
+   },
+   "G_reloadframe": {
+      "message": "刷新框架"
+   },
+   "G_righttab": {
+      "message": "右侧标签页"
+   },
+   "G_stop": {
+      "message": "停止载入"
+   },
+   "G_stopall": {
+      "message": "停止所有标签页载入"
+   },
+   "G_top": {
+      "message": "到顶部"
+   },
+   "G_tostop": {
+      "message": "在当前页临时禁用本扩展"
+   },
+   "G_trynext": {
+      "message": "尝试转到下一页"
+   },
+   "G_tryprev": {
+      "message": "尝试转到上一页"
+   },
+   "G_up": {
+      "message": "向上滚动"
+   },
+   "G_userscript": {
+      "message": "运行自定义脚本..."
+   },
+   "G_viewsource": {
+      "message": "查看网页源代码"
+   },
+   "G_windowmax": {
+      "message": "最大化窗口"
+   },
+   "G_windowmin": {
+      "message": "最小化窗口"
+   },
+   "I_copyurl": {
+      "message": "复制图片网址"
+   },
+   "I_open": {
+      "message": "打开图片"
+   },
+   "I_save": {
+      "message": "保存图片(Dev Only)"
+   },
+   "I_saveback": {
+      "message": "图片另存为(Dev Only)..."
+   },
+   "I_search": {
+      "message": "搜索此图片"
+   },
+   "I_searchuser": {
+      "message": "使用自定义搜索引擎搜索此图片"
+   },
+   "L_bookmark": {
+      "message": "添加书签"
+   },
+   "L_copyaslink": {
+      "message": "复制文字及网址为链接"
+   },
+   "L_copytext": {
+      "message": "复制链接文字"
+   },
+   "L_copyurl": {
+      "message": "复制链接地址"
+   },
+   "L_copyuser": {
+      "message": "复制文字及网址为自定义格式"
+   },
+   "L_open": {
+      "message": "打开链接"
+   },
+   "T_copytext": {
+      "message": "复制选中文本"
+   },
+   "T_search": {
+      "message": "搜索拖动文字"
+   },
+   "T_searchuser": {
+      "message": "使用自定义搜索..."
+   },
+   "about": {
+      "message": "关于"
+   },
+   "addtipgesture": {
+      "message": "按住鼠标右键，移动鼠标画出轨迹，松开右键并选取需要的操作."
+   },
+   "addtipimage": {
+      "message": "使用鼠标左键拖动下面的图片，然后画出轨迹，松开鼠标后选取相应的操作."
+   },
+   "addtiplink": {
+      "message": "使用鼠标左键拖动下面的链接，并画出轨迹，然后松开鼠标并选取需要的操作."
+   },
+   "addtiptext": {
+      "message": "选中下面的文字，使用鼠标左键拖动并画出轨迹，然后松开鼠标并选取需要的操作."
+   },
+   "advanced": {
+      "message": "高级选项"
+   },
+   "alertaction": {
+      "message": "请选择需要的操作."
+   },
+   "alertconfigerror": {
+      "message": "导入的配置文件错误."
+   },
+   "alertname": {
+      "message": "还有地方没填写内容."
+   },
+   "alertrepeat": {
+      "message": "手势重复，请重试."
+   },
+   "alerttooltip": {
+      "message": "请输入欲显示的提示文字."
+   },
+   "alerturl": {
+      "message": "未输入网址或网址错误."
+   },
+   "author": {
+      "message": "作者"
+   },
+   "bookmarkfailnotifi": {
+      "message": "书签已经存在!"
+   },
+   "bookmarknotifi": {
+      "message": "添加书签成功!"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "cancelcontextmenu": {
+      "message": "消除Linux/Mac右键菜单对本扩展的影响(\u003Cspan style='color:red'>双击弹出右键菜单\u003C/span>)."
+   },
+   "cancelcontextmenudes": {
+      "message": "该选项修复非Windows平台上,右键菜单影响某些功能的正常使用,强烈建议Linux/Mac用户勾选此项."
+   },
+   "changelog": {
+      "message": "开发日志"
+   },
+   "chrome": {
+      "message": "Chrome默认"
+   },
+   "clearsyncdata": {
+      "message": "清空同步数据"
+   },
+   "close": {
+      "message": "关闭"
+   },
+   "color": {
+      "message": "颜色："
+   },
+   "crbookmarks": {
+      "message": "书签管理器"
+   },
+   "crdownloads": {
+      "message": "下载内容"
+   },
+   "crextensions": {
+      "message": "扩展程序"
+   },
+   "crflags": {
+      "message": "Chrome实验室"
+   },
+   "crhistory": {
+      "message": "历史记录"
+   },
+   "crsettings": {
+      "message": "Chrome浏览器设置"
+   },
+   "curfront": {
+      "message": "覆盖当前标签页"
+   },
+   "dbclicktime": {
+      "message": "双击间隔最长时间(ms):"
+   },
+   "delete": {
+      "message": "删除"
+   },
+   "description": {
+      "message": "干净版！ 原名:Gestures for Chrome(TM)汉化版.方便,快捷,充分发掘鼠标的所有操作."
+   },
+   "descriptionjson": {
+      "message": "干净版！ 原名:Gestures for Chrome(TM)汉化版.方便,快捷,充分发掘鼠标的所有操作.功能包括:鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等."
+   },
+   "dholdkey": {
+      "message": "按住以下键,临时禁用超级拖曳:"
+   },
+   "direct": {
+      "message": "显示轨迹方向提示"
+   },
+   "donate": {
+      "message": "支持开发"
+   },
+   "donate1": {
+      "message": ""
+   },
+   "donate2": {
+      "message": "&nbsp;&nbsp;现金捐赠作者以支持开发:"
+   },
+   "donatedes": {
+      "message": "如果你觉得CrxMouse还不错,给你带来了方便,可以通过以下方式支持作者开发,有您的支持,才有我继续的动力:"
+   },
+   "downimgtooltip": {
+      "message": "正在保存图片..."
+   },
+   "drag": {
+      "message": "超级拖曳"
+   },
+   "draginput": {
+      "message": "选中并拖动文本框中的文字时,使用超级拖曳."
+   },
+   "dragui": {
+      "message": "超级拖曳外观"
+   },
+   "editgesture": {
+      "message": "编辑手势"
+   },
+   "editimage": {
+      "message": "编辑 拖曳-图片"
+   },
+   "editlink": {
+      "message": "编辑 拖曳-链接"
+   },
+   "editsgsleft": {
+      "message": "滚轮手势-左键\u003Cbr />\u003Cspan class='opttitledes'>(按住鼠标左键,然后滚动滚轮)\u003C/span>"
+   },
+   "editsgsright": {
+      "message": "滚轮手势-右键\u003Cbr />\u003Cspan class='opttitledes'>(按住鼠标右键,然后滚动滚轮)\u003C/span>"
+   },
+   "edittext": {
+      "message": "编辑 拖曳-文字"
+   },
+   "enabledragimage": {
+      "message": "启用超级拖曳-图片"
+   },
+   "enabledraglink": {
+      "message": "启用超级拖曳-链接"
+   },
+   "enabledragtext": {
+      "message": "启用超级拖曳-文字"
+   },
+   "enableui": {
+      "message": "启用"
+   },
+   "export": {
+      "message": "导出"
+   },
+   "extauthor": {
+      "message": "WeKnowNet"
+   },
+   "extchangelog": {
+      "message": "000"
+   },
+   "extfeedback": {
+      "message": "任何问题,意见,建议.请通过以下方式与我取得联系\u003Cbr />Email: \u003Ca href='mailto:tmdzhang@gmail.com' target='_blank'>tmdzhang@gmail.com\u003C/a>"
+   },
+   "extnamejson": {
+      "message": "CrxMouse"
+   },
+   "extthanks": {
+      "message": ">  \u003Ca href='http://ss-o.net/' target='_blank'>os0x\u003C/a> : \u003Ca href='https://chrome.google.com/extensions/detail/jpkfjicglakibpenojifdiepckckakgk' target='_blank'>Gestures for Chrome(TM)\u003C/a>的作者,因为此扩展,才萌生了写CrxMouse的想法,且平滑滚动借用了该扩展.\u003Cbr />\r\n\t\t> \u003Ca href='http://looxu.blogspot.com/' target='_blank'>ArcCosine\u003C/a> : \u003Ca href='https://github.com/ArcCosine/userscript/blob/master/simple_guestures.user.js' target='_blank'>simple_guestures script\u003C/a>的作者,部分代码参考了此脚本.\u003Cbr />\r\n\t\t>  \u003Ca href='http://odvarko.cz' target='_blank'>Jan Odvarko\u003C/a> : \u003Ca href='http://jscolor.com' target='_blank'>jscolor script\u003C/a>的作者,设置页面中的取色,使用了此脚本.\u003Cbr />\r\n\t\t>  特别感谢帮助改进的朋友：黄琛,\u003Ca href='http://blog.sina.com.cn/u/1773846677' target='_blank'>夜尽天明\u003C/a>,还有其他众多提供过反馈的朋友们!"
+   },
+   "fastreset": {
+      "message": "额~出现了点点状况,导致本扩展不能正常运行.请点此出重置为默认配置.如果依然无效,请将chrome升级到最新版本,至少Ver23."
+   },
+   "feedback": {
+      "message": "反馈"
+   },
+   "fndrag": {
+      "message": "开启超级拖曳"
+   },
+   "fngesture": {
+      "message": "开启鼠标手势"
+   },
+   "fnscroll": {
+      "message": "开启鼠标滚轮功能"
+   },
+   "fnscrollgesture": {
+      "message": "开启滚轮手势"
+   },
+   "fnsmooth": {
+      "message": "启用平滑滚动"
+   },
+   "fnstrokegesture": {
+      "message": "开启摇杆手势"
+   },
+   "fnbackgroundtab": {
+      "message": "开启后台打开标签页"
+   },
+   "fnswitch": {
+      "message": "功能开启"
+   },
+   "geskey": {
+      "message": "鼠标手势操作方式:"
+   },
+   "geskeydes": {
+      "message": "注:1,这只是为不能正常使用右键的Linux/Mac用户提供一种替代方案,不建议Windows用户修改此项;\u003Cbr />2,使用左键存在诸多问题,包括:不能选取文字,不能使用超级拖曳>拖曳文字,图片/链接上不能使用手势,某些页面内操作会触发手势操作等等,此时可以配合下面这个选项来使用. "
+   },
+   "geskeyleft": {
+      "message": "鼠标左键"
+   },
+   "geskeymiddle": {
+      "message": "鼠标中键"
+   },
+   "geskeyright": {
+      "message": "鼠标右键"
+   },
+   "gesture": {
+      "message": "鼠标手势"
+   },
+   "gestureui": {
+      "message": "鼠标手势外观"
+   },
+   "gholdkey": {
+      "message": "按住以下键,临时禁用鼠标手势:"
+   },
+   "head": {
+      "message": "首"
+   },
+   "help": {
+      "message": "帮助"
+   },
+   "howtablist": {
+      "message": "操作方式："
+   },
+   "image": {
+      "message": "图片"
+   },
+   "imgfirst": {
+      "message": "按住以下键,将带图片的链接识别为图片,以使用拖曳图片功能:"
+   },
+   "imgfirstcheck": {
+      "message": "带图片的链接,优先识别为图片,以使用拖曳图片功能"
+   },
+   "import": {
+      "message": "导入"
+   },
+   "incog": {
+      "message": "隐身窗口"
+   },
+   "last": {
+      "message": "尾"
+   },
+   "lasttab": {
+      "message": "关闭最后一个标签时，不关闭窗口(仅适用于手势操作)."
+   },
+   "left": {
+      "message": "左"
+   },
+   "link": {
+      "message": "链接"
+   },
+   "linuxsettings": {
+      "message": "Linux/Mac选项"
+   },
+   "listaction": {
+      "message": "动作："
+   },
+   "listgesture": {
+      "message": "手势："
+   },
+   "local": {
+      "message": "zh_CN"
+   },
+   "localtrans": {
+      "message": "true"
+   },
+   "minilength": {
+      "message": "手势起效的最小长度(px):"
+   },
+   "moreCapturetypetitle": {
+      "message": "截图格式"
+   },
+   "moreChromepagetitle": {
+      "message": "Chrome内部地址"
+   },
+   "moreCloseoptstitle": {
+      "message": "如果关闭的是最后一个标签页,是否关闭整个窗口?"
+   },
+   "moreCloseseltitle": {
+      "message": "关闭后,选中哪个标签页?"
+   },
+   "moreCloseurltitle": {
+      "message": "网址,如果不关闭窗口,则打开此网址"
+   },
+   "moreCopystyletitle": {
+      "message": "自定义格式,使用\"%title\"表示标题,\"%url\"表示网址,换行请使用\"\\n\""
+   },
+   "moreDes": {
+      "message": "功能提示文字，使用%name代替搜索关键词"
+   },
+   "moreDestitle": {
+      "message": "功能提示文字"
+   },
+   "moreIsearchtitle": {
+      "message": "图片搜索引擎"
+   },
+   "moreName": {
+      "message": "名称"
+   },
+   "moreNametitle": {
+      "message": "名称"
+   },
+   "morePinnedtitle": {
+      "message": "是否固定标签页"
+   },
+   "morePositiontitle": {
+      "message": "新标签页相当当前标签页的位置"
+   },
+   "moreScript": {
+      "message": "脚本"
+   },
+   "moreScripttitle": {
+      "message": "脚本内容"
+   },
+   "moreTarget": {
+      "message": "位置"
+   },
+   "moreTargettitle": {
+      "message": "打开新标签的方式:新/当前标签,前/后台"
+   },
+   "moreTsearchtitle": {
+      "message": "文字搜索引擎"
+   },
+   "moreURL": {
+      "message": "网址"
+   },
+   "moreURLtitle": {
+      "message": "网址.使用\"%s\"表示搜索关键词"
+   },
+   "moreaboutdrag": {
+      "message": "细节设置"
+   },
+   "morecur": {
+      "message": "覆盖当前标签页"
+   },
+   "morenew": {
+      "message": "新标签页,前台"
+   },
+   "morenewback": {
+      "message": "新标签页,后台"
+   },
+   "moresettings": {
+      "message": "更多设置"
+   },
+   "morestrges": {
+      "message": "细节设置"
+   },
+   "msgbox": {
+      "message": "配置已保存,部分设置需要刷新后才能生效!"
+   },
+   "newadd": {
+      "message": "新增"
+   },
+   "newback": {
+      "message": "新标签页,后台"
+   },
+   "newfront": {
+      "message": "新标签页,前台"
+   },
+   "newgesture": {
+      "message": "添加新手势"
+   },
+   "normal": {
+      "message": "基本设置"
+   },
+   "opa": {
+      "message": "透明度："
+   },
+   "optgrpapp": {
+      "message": "APP"
+   },
+   "optgrpcopy": {
+      "message": "复制"
+   },
+   "optgrpload": {
+      "message": "加载"
+   },
+   "optgrpnav": {
+      "message": "导航"
+   },
+   "optgrpnone": {
+      "message": "无"
+   },
+   "optgrpother": {
+      "message": "其他"
+   },
+   "optgrpsave": {
+      "message": "保存"
+   },
+   "optgrpscroll": {
+      "message": "滚动"
+   },
+   "optgrpsearch": {
+      "message": "搜索"
+   },
+   "optgrptab": {
+      "message": "标签页"
+   },
+   "optgrptabnav": {
+      "message": "标签页导航"
+   },
+   "optgrpwindow": {
+      "message": "窗口"
+   },
+   "pinned": {
+      "message": "固定"
+   },
+   "placeholderconfig": {
+      "message": "将配置内容复制到这里，然后点击 导入 即可将完成配置导入；点击 导出 后，当前扩展的配置信息将显示在这里，你可以复制，然后再行保存."
+   },
+   "port": {
+      "message": "导入/导出配置"
+   },
+   "porttip": {
+      "message": "注:1.导入配置后,将自动重启本扩展,重启后,已经打开的标签页需要刷新一次后,本扩展才能起效!\u003Cbr />2.建议只导入从这里导出的配置,不建议手动修改配置文件,否则导入后可能会出现一些奇怪的问题.\u003Cbr />3.如遇错误,请重置为默认配置."
+   },
+   "rateus": {
+      "message": "LIKE US? RATE US!"
+   },
+   "reset": {
+      "message": "重置配置"
+   },
+   "resetall": {
+      "message": "重置所有配置"
+   },
+   "resetpage": {
+      "message": "重置本页设置"
+   },
+   "resettip": {
+      "message": "注:该操作会清空当前的所有配置,并将配置重置为扩展的默认设置.该操作不能撤销,请谨慎操作!"
+   },
+   "right": {
+      "message": "右"
+   },
+   "samazon": {
+      "message": "Amazon"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "sbaidu": {
+      "message": "百度"
+   },
+   "sbaiduimage": {
+      "message": "百度识图"
+   },
+   "sbing": {
+      "message": "必应"
+   },
+   "scractdown": {
+      "message": "向下滚动:"
+   },
+   "scractup": {
+      "message": "向上滚动:"
+   },
+   "scroll": {
+      "message": "滚轮功能"
+   },
+   "scrollaccele": {
+      "message": "滚动加速值"
+   },
+   "scrolleffects": {
+      "message": "使用滚动特效(上/下滚动,到底部/顶部)."
+   },
+   "scrollgesture": {
+      "message": "滚轮手势"
+   },
+   "scrollspeed": {
+      "message": "滚动速度"
+   },
+   "setdragurl": {
+      "message": "当拖动的文字为网址时,识别为拖曳链接(正则匹配得不够理想,效果欠佳,慎用)."
+   },
+   "settings": {
+      "message": "设置"
+   },
+   "sgoogle": {
+      "message": "Google"
+   },
+   "sgoogleimage": {
+      "message": "Google以图搜图"
+   },
+   "site": {
+      "message": "官网"
+   },
+   "smooth": {
+      "message": "平滑滚动"
+   },
+   "staobao": {
+      "message": "淘宝"
+   },
+   "stars": {
+      "message": "喜欢这个扩展? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>给CrxMouse评分\u003C/a>"
+   },
+   "stenable": {
+      "message": "使用左键时,可以选中文字(勾选此项,会造成很多时候鼠标手势失效!)"
+   },
+   "stineyeimage": {
+      "message": "TinEye"
+   },
+   "stractleft": {
+      "message": "点击左键:"
+   },
+   "stractmiddle": {
+      "message": "点击中键:"
+   },
+   "stractright": {
+      "message": "点击右键:"
+   },
+   "strleft": {
+      "message": "按住鼠标左键"
+   },
+   "strmiddle": {
+      "message": "按住鼠标中键"
+   },
+   "stroke": {
+      "message": "显示轨迹"
+   },
+   "strokegesture": {
+      "message": "摇杆手势"
+   },
+   "strpress": {
+      "message": "触发摇杆手势的方式:"
+   },
+   "strpressdown": {
+      "message": "当按下鼠标时"
+   },
+   "strpressup": {
+      "message": "当鼠标弹起时"
+   },
+   "strright": {
+      "message": "按住鼠标右键"
+   },
+   "swiki": {
+      "message": "维基百科"
+   },
+   "syahoo": {
+      "message": "雅虎"
+   },
+   "syandex": {
+      "message": "Yandex"
+   },
+   "sync": {
+      "message": "同步配置"
+   },
+   "syncdes": {
+      "message": "已\u003Ca href=\"https://accounts.google.com/ServiceLogin?service=chromiumsync\" target=\"_blank\">登录Chrome\u003C/a>用户,将自动同步配置文件."
+   },
+   "tablist": {
+      "message": "标签页列表"
+   },
+   "tablistkeyleft": {
+      "message": "按住鼠标左键，并滚动滚轮."
+   },
+   "tablistkeyright": {
+      "message": "按住鼠标右键，并滚动滚轮."
+   },
+   "testlink": {
+      "message": "测试链接"
+   },
+   "testwords": {
+      "message": "测试文字"
+   },
+   "text": {
+      "message": "文字"
+   },
+   "thanks": {
+      "message": "致谢"
+   },
+   "time": {
+      "message": "时长(s)："
+   },
+   "timeout": {
+      "message": "超过以下时间取消操作"
+   },
+   "titlechromepage": {
+      "message": "功能提示文字,使用\"%name\"替换Chrome内部地址名称"
+   },
+   "titlecopyuser": {
+      "message": "功能提示文字,使用\"%name\"替换自定义格式名称"
+   },
+   "titleisearch": {
+      "message": "功能提示文字,使用\"%name\"替换搜索引擎名称"
+   },
+   "titlenewusertab": {
+      "message": "功能提示文字,使用\"%name\"替换自定义网站名称"
+   },
+   "titlenexpre": {
+      "message": "检测的关键字,多个关键字间用\"|\"隔开,扩展将依次检测rel,rev,id,innerHTML,title,class"
+   },
+   "titlesearchuser": {
+      "message": "网址.使用\"%s\"表示搜索关键词"
+   },
+   "titletsearch": {
+      "message": "功能提示文字,使用\"%name\"替换搜索引擎名称,\"%s\"替换欲搜索的内容"
+   },
+   "titleuserscript": {
+      "message": "功能提示文字,使用\"%name\"替换脚本名称"
+   },
+   "tooltip": {
+      "message": "显示功能提示文字"
+   },
+   "translate": {
+      "message": "翻译"
+   },
+   "unclose": {
+      "message": "不关闭,打开以下地址"
+   },
+   "unpinned": {
+      "message": "不固定"
+   },
+   "valuechromepage": {
+      "message": "打开%name"
+   },
+   "valueisearch": {
+      "message": "使用%name搜索图片"
+   },
+   "valuenewusertab": {
+      "message": "打开%name"
+   },
+   "valuenone": {
+      "message": "无"
+   },
+   "valuetsearch": {
+      "message": "使用%name搜索:\"%s\""
+   },
+   "valueuserscript": {
+      "message": "运行脚本:\"%name\""
+   },
+   "version": {
+      "message": "版本"
+   },
+   "width": {
+      "message": "宽度："
+   }
+}

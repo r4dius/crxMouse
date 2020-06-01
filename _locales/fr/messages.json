@@ -1,0 +1,899 @@
+{
+   "G_back": {
+      "message": "Précédent"
+   },
+   "G_bookmark": {
+      "message": "Ajouter un favori"
+   },
+   "G_bookmarks": {
+      "message": "Gestionnaire de favoris"
+   },
+   "G_bottom": {
+      "message": "Défiler jusqu'en bas"
+   },
+   "G_capture": {
+      "message": "Impression écran"
+   },
+   "G_chromepage": {
+      "message": "Ouvrir une adresse interne à Chrome"
+   },
+   "G_close": {
+      "message": "Fermer l'onglet"
+   },
+   "G_closelefttabs": {
+      "message": "Fermer tous les onglets à gauche"
+   },
+   "G_closeothers": {
+      "message": "Fermer les autres onglets"
+   },
+   "G_closerighttabs": {
+      "message": "Fermer tous les onglets à droite"
+   },
+   "G_closewindow": {
+      "message": "Fermer la fenêtre"
+   },
+   "G_closewindows": {
+      "message": "Fermer toutes les fenêtres"
+   },
+   "G_copyaslink": {
+      "message": "Copier le titre et l'adresse comme lien"
+   },
+   "G_copytab": {
+      "message": "Copier l'onglet actuel"
+   },
+   "G_copytitle": {
+      "message": "Copier le titre de l'onglet actuel"
+   },
+   "G_copyurl": {
+      "message": "Copier l'adresse de l'onglet actuel"
+   },
+   "G_copyuser": {
+      "message": "Copier le titre et l'adresse dans un format personnalisé"
+   },
+   "G_crxsettings": {
+      "message": "Paramêtres de CrxMouse"
+   },
+   "G_down": {
+      "message": "Défiler vers le bas"
+   },
+   "G_downloads": {
+      "message": "Téléchargements"
+   },
+   "G_firsttab": {
+      "message": "Premier onglet"
+   },
+   "G_fullscreen": {
+      "message": "Plein écran"
+   },
+   "G_go": {
+      "message": "Suivant"
+   },
+   "G_goparent": {
+      "message": "Aller au niveau supérieur"
+   },
+   "G_history": {
+      "message": "Historique"
+   },
+   "G_incognito": {
+      "message": "Nouvelle fenêtre de navigation privée"
+   },
+   "G_lasttab": {
+      "message": "Dernier onglet"
+   },
+   "G_lefttab": {
+      "message": "Onglet de gauche"
+   },
+   "G_movetowindow": {
+      "message": "Détacher l'onglet"
+   },
+   "G_newtab": {
+      "message": "Nouvel onglet"
+   },
+   "G_newusertab": {
+      "message": "Onglet personnalisé..."
+   },
+   "G_newwindow": {
+      "message": "Nouvelle fenêtre"
+   },
+   "G_none": {
+      "message": "Aucune"
+   },
+   "G_openclipurl": {
+      "message": "Essayer d'ouvrir l'adresse présente dans le presse-papier"
+   },
+   "G_pin": {
+      "message": "Épingler l'onglet"
+   },
+   "G_reclosedtab": {
+      "message": "Rouvrir l'onglet fermé"
+   },
+   "G_reload": {
+      "message": "Actualiser"
+   },
+   "G_reloadall": {
+      "message": "Actualiser tous les onglets"
+   },
+   "G_reloadclear": {
+      "message": "Actualiser sans le cache"
+   },
+   "G_reloadframe": {
+      "message": "Actualiser le cadre"
+   },
+   "G_righttab": {
+      "message": "Onglet de droite"
+   },
+   "G_settings": {
+      "message": "Paramêtres de Chrome"
+   },
+   "G_stop": {
+      "message": "Arrêter"
+   },
+   "G_stopall": {
+      "message": "Arrêter le chargement de tous les onglets"
+   },
+   "G_top": {
+      "message": "Défiler jusqu'en haut"
+   },
+   "G_tostop": {
+      "message": "Désactiver temporairement l'extension sur cette page"
+   },
+   "G_trynext": {
+      "message": "Essayer d'aller au chapitre suivant"
+   },
+   "G_tryprev": {
+      "message": "Essayer d'aller au chapitre précédent"
+   },
+   "G_up": {
+      "message": "Défiler vers le haut"
+   },
+   "G_userscript": {
+      "message": "Exécuter le script..."
+   },
+   "G_viewsource": {
+      "message": "Afficher la source"
+   },
+   "G_windowmax": {
+      "message": "Agrandir la fenêtre"
+   },
+   "G_windowmin": {
+      "message": "Réduire la fenêtre"
+   },
+   "I_copyurl": {
+      "message": "Copier l'adresse de l'image"
+   },
+   "I_open": {
+      "message": "Ouvrir l'image dans un nouvel onglet"
+   },
+   "I_save": {
+      "message": "Enregistrer l'image (dev)"
+   },
+   "I_saveback": {
+      "message": "Enregistrer l'image sous... (dev)"
+   },
+   "I_search": {
+      "message": "Rechercher cette image"
+   },
+   "I_searchuser": {
+      "message": "Rechercher cette image avec un moteur de recherche personnalisé"
+   },
+   "L_bookmark": {
+      "message": "Ajouter un favori"
+   },
+   "L_copyaslink": {
+      "message": "Copier le texte et l'adresse comme lien"
+   },
+   "L_copytext": {
+      "message": "Copier le texte du lien"
+   },
+   "L_copyurl": {
+      "message": "Copier l'adresse du lien"
+   },
+   "L_copyuser": {
+      "message": "Copier le titre et le site dans un format personnalisé"
+   },
+   "L_open": {
+      "message": "Ouvrir le lien dans un nouvel onglet"
+   },
+   "T_copytext": {
+      "message": "Copier le texte"
+   },
+   "T_search": {
+      "message": "Rechercher le texte"
+   },
+   "T_searchuser": {
+      "message": "Recherche personnalisée..."
+   },
+   "about": {
+      "message": "À propos"
+   },
+   "addtipgesture": {
+      "message": "Cliquez et laissez appuyé le bouton droit de la souris, dessinez la trace, relâchez le bouton droit et sélectionnez l'action."
+   },
+   "addtipimage": {
+      "message": "Utilisez le bouton gauche de la souris pour faire glisser l'image et dessiner la trace, relâchez ensuite le bouton pour sélectionner l'action."
+   },
+   "addtiplink": {
+      "message": "Sélectionnez le lien et dessinez la trace tout en maintenant le bouton gauche de la souris appuyé, relâchez ensuite le bouton pour sélectionner l'action."
+   },
+   "addtiptext": {
+      "message": "Sélectionnez du texte et dessinez la trace tout en maintenant le bouton gauche de la souris appuyé, puis relâchez ensuite le bouton pour sélectionner l'action."
+   },
+   "advanced": {
+      "message": "Paramêtres avancés"
+   },
+   "alertaction": {
+      "message": "Sélectionnez une action."
+   },
+   "alertconfigerror": {
+      "message": "Erreur dans la configuration importée."
+   },
+   "alertname": {
+      "message": "Le nom est vide, vous devez le remplir !"
+   },
+   "alertrepeat": {
+      "message": "Le geste existe déjà, veuillez en essayer un autre."
+   },
+   "alerttooltip": {
+      "message": "Veuillez entrer un nom pour cette action."
+   },
+   "alerturl": {
+      "message": "Pas d'adresse ou adresse invalide."
+   },
+   "author": {
+      "message": "Auteur"
+   },
+   "bookmarkfailnotifi": {
+      "message": "Le favori existe déjà !"
+   },
+   "bookmarknotifi": {
+      "message": "Ajout de favori réussi !"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "cancelcontextmenu": {
+      "message": "Fixe le problème de menu contextuel sous Linux/Mac (\u003Cspan style='color:red'>double cliquez du bouton droit pour faire apparaître le menu contextuel\u003C/span>)."
+   },
+   "cancelcontextmenudes": {
+      "message": "L'option qui règle le problème du clic droit sur les plateforme non Windows peut affecter l'utilisation normale de certaines fonction. Il est recommandé aux utilisateurs de Linux/Mac de cocher cette option."
+   },
+   "changelog": {
+      "message": "Journal"
+   },
+   "chrome": {
+      "message": "Chrome Défaut"
+   },
+   "clearsyncdata": {
+      "message": "Effacer les données synchronisées"
+   },
+   "close": {
+      "message": "Fermer"
+   },
+   "color": {
+      "message": "Couleur :"
+   },
+   "crbookmarks": {
+      "message": "Gestionnaire de favoris"
+   },
+   "crdownloads": {
+      "message": "Téléchargements"
+   },
+   "crextensions": {
+      "message": "Extensions"
+   },
+   "crflags": {
+      "message": "Chrome Labs"
+   },
+   "crhistory": {
+      "message": "Historique"
+   },
+   "crsettings": {
+      "message": "Paramêtres de Chrome"
+   },
+   "curfront": {
+      "message": "Onglet actuel"
+   },
+   "dbclicktime": {
+      "message": "Temps maximum du double clic (ms) :"
+   },
+   "delete": {
+      "message": "Supprimer"
+   },
+   "description": {
+      "message": "Augmentez votre productivité sur le web en un clic"
+   },
+   "descriptionjson": {
+      "message": "Augmentez votre productivité sur le web en un clic - Raccourcis souris, Glissé Spécial, Raccourcis roulette, Raccourcis de bascule."
+   },
+   "dholdkey": {
+      "message": "Définissez une touche pour désactiver le Glissé Spécial :"
+   },
+   "direct": {
+      "message": "Montrer les directions"
+   },
+   "donate": {
+      "message": "Soutiens"
+   },
+   "donate1": {
+      "message": ""
+   },
+   "donate2": {
+      "message": ""
+   },
+   "donatedes": {
+      "message": "Si vous appréciez mon travail, vous pouvez le soutenir en faisant un don."
+   },
+   "downimgtooltip": {
+      "message": "Enregistrement de l'image..."
+   },
+   "drag": {
+      "message": "Glissé Spécial"
+   },
+   "draginput": {
+      "message": "Activer le Glissé de texte pour les TextBox."
+   },
+   "dragui": {
+      "message": "Apparence"
+   },
+   "editgesture": {
+      "message": "Éditer les raccourcis"
+   },
+   "editimage": {
+      "message": "Glissé d'image"
+   },
+   "editlink": {
+      "message": "Glissé de lien"
+   },
+   "editsgsleft": {
+      "message": "Raccourcis molette GAUCHE\u003Cbr />\u003Cspan class='opttitledes'>(Maintenez le bouton gauche appuyé et scrollez)\u003C/span>"
+   },
+   "editsgsright": {
+      "message": "Raccourcis molette DROITE\u003Cbr />\u003Cspan class='opttitledes'>(Maintenez le bouton droit appuyé et scrollez)\u003C/span>"
+   },
+   "edittext": {
+      "message": "Glissé de texte"
+   },
+   "enabledragimage": {
+      "message": "Activer le Glissé d'image"
+   },
+   "enabledraglink": {
+      "message": "Activer le Glissé de lien"
+   },
+   "enabledragtext": {
+      "message": "Activer le Glissé de texte"
+   },
+   "enableui": {
+      "message": "Activer"
+   },
+   "export": {
+      "message": "Exporter"
+   },
+   "extauthor": {
+      "message": "WeKnowNet"
+   },
+   "extchangelog": {
+      "message": "000"
+   },
+   "extfeedback": {
+      "message": "Pour toutes questions, commentaires ou suggestions, contactez moi par \u003Cbr />E-mail: \u003Ca href='mailto:tmdzhang@gmail.com' target='_blank'>tmdzhang@gmail.com\u003C/a> ."
+   },
+   "extnamejson": {
+      "message": "CrxMouse"
+   },
+   "extthanks": {
+      "message": "\r\n\t\t> \u003Ca href='http://ss-o.net/' target='_blank'>os0x\u003C/a> : l'auteur de \u003Ca href='https://chrome.google.com/extensions/detail/jpkfjicglakibpenojifdiepckckakgk' target='_blank'>Gestures for Chrome(TM)\u003C/a>\u003Cbr />\r\n\t\t> \u003Ca href='http://looxu.blogspot.com/' target='_blank'>ArcCosine\u003C/a> : l'auteur du script \u003Ca href='https://github.com/ArcCosine/userscript/blob/master/simple_guestures.user.js' target='_blank'>simple_guestures\u003C/a>\u003Cbr />\r\n\t\t> \u003Ca href='http://odvarko.cz' target='_blank'>Jan Odvarko\u003C/a> : l'auteur du script \u003Ca href='http://jscolor.com' target='_blank'>jscolor\u003C/a>\u003Cbr />\r\n\t\t> \u003Ca href='https://twitter.com/Cqoicebordel' target='_blank'>Cqoicebordel\u003C/a> : l'auteur de la traduction française de CrxMouse\u003Cbr />\r\n\t\t> Merci à ceux qui ont apprécié cette extension et/ou qui ont envoyé des commentaires pour l'améliorer : 黄琛,\u003Ca hre users'http://blog.sina.com.cn/u/1773846677' target='_blank'>夜尽天明\u003C/a>,\r\n\t\r\n\t"
+   },
+   "fastreset": {
+      "message": "Quelque chose ne va pas. L'extension ne peut pas fonctionner. Cliquez ici pour remettre à zéro la configuration. Si elle continue à ne pas fonctionner, veuillez mettre à jour Chrome à la dernière version (V23+) et réessayez."
+   },
+   "feedback": {
+      "message": "Commentaire"
+   },
+   "fndrag": {
+      "message": "Activer le Glissé Spécial"
+   },
+   "fngesture": {
+      "message": "Activer les raccourcis souris"
+   },
+   "fnscroll": {
+      "message": "Activer le défilement "
+   },
+   "fnscrollgesture": {
+      "message": "Activer les raccourcis molette"
+   },
+   "fnsmooth": {
+      "message": "Activer le défilement doux"
+   },
+   "fnstrokegesture": {
+      "message": "Activer les raccourcis de bascule"
+   },
+   "fnbackgroundtab": {
+      "message": "Enable background tab"
+   },
+   "fnswitch": {
+      "message": "Activer CrxMouse"
+   },
+   "geskey": {
+      "message": "Quel bouton pour les raccourcis souris ?"
+   },
+   "geskeydes": {
+      "message": "Note : 1) Il s'agit d'une alternative pour les utilisateurs Linux/Mac qui ne peuvent utiliser le bouton droit ; les utilisateurs de Windows ne devraient pas changer ça.\u003Cbr />2) Beaucoup de problèmes peuvent arriver : impossibilité de sélectionner du texte, d'utiliser le Glissé de texte, ou d'effectuer des raccourcis souris sur des images ou des liens. Dans ce cas là, vous pourriez avoir besoin du réglage ci-dessous."
+   },
+   "geskeyleft": {
+      "message": "Bouton gauche de la souris"
+   },
+   "geskeymiddle": {
+      "message": "Bouton du milieu de la souris"
+   },
+   "geskeyright": {
+      "message": "Bouton droit de la souris"
+   },
+   "gesture": {
+      "message": "Raccourcis souris"
+   },
+   "gestureui": {
+      "message": "Apparence"
+   },
+   "gholdkey": {
+      "message": "Choisissez une touche pour désactiver les raccourcis souris : "
+   },
+   "head": {
+      "message": "Premier"
+   },
+   "help": {
+      "message": "Aide"
+   },
+   "howtablist": {
+      "message": "Comment utiliser la liste des onglets : "
+   },
+   "image": {
+      "message": "Image"
+   },
+   "imgfirst": {
+      "message": "Choisissez une touche pour activer le Glissé Spécial sur l'image plutôt que sur le lien :"
+   },
+   "imgfirstcheck": {
+      "message": "Si le lien contient une image, utiliser le Glissé Spécial sur l'image plutôt que sur le lien"
+   },
+   "import": {
+      "message": "Importer"
+   },
+   "incog": {
+      "message": "Fenêtre de navigation privée"
+   },
+   "last": {
+      "message": "Dernier"
+   },
+   "left": {
+      "message": "Gauche"
+   },
+   "link": {
+      "message": "Lien"
+   },
+   "linuxsettings": {
+      "message": "Options pour Linux/Mac"
+   },
+   "listaction": {
+      "message": "Action : "
+   },
+   "listgesture": {
+      "message": "Raccourcis souris : "
+   },
+   "local": {
+      "message": "fr"
+   },
+   "localtrans": {
+      "message": "false"
+   },
+   "minilength": {
+      "message": "Longueur minimum de la trace (px) : "
+   },
+   "moreCapturetypetitle": {
+      "message": "Type d'image"
+   },
+   "moreChromepagetitle": {
+      "message": "Adresse interne de Chrome, du type : \"chrome://...\""
+   },
+   "moreCloseoptstitle": {
+      "message": "Fermer la fenêtre lors de la fermeture du dernier onglet ?"
+   },
+   "moreCloseseltitle": {
+      "message": "Quel onglet sélectionner après la fermeture de l'onglet courant ?"
+   },
+   "moreCloseurltitle": {
+      "message": "Adresse, si vous ne fermer pas la fenêtre de Chrome, ouvrir cette adresse"
+   },
+   "moreCopystyletitle": {
+      "message": "Format personnalisé, utilisez \"%title\" à la place de titre/mot, \"%url\" à la place de l'adresse du site, nouvelle ligne avec \"\\n\""
+   },
+   "moreDes": {
+      "message": "La fonction demande du texte, utilisez \"%name\" à la place de mots clés"
+   },
+   "moreDestitle": {
+      "message": "Nom de l'action"
+   },
+   "moreIsearchtitle": {
+      "message": "Moteurs de recherche d'image"
+   },
+   "moreName": {
+      "message": "Nom"
+   },
+   "moreNametitle": {
+      "message": "Nom"
+   },
+   "morePinnedtitle": {
+      "message": "Épingler/Retirer l'onglet"
+   },
+   "morePositiontitle": {
+      "message": "Position du nouvel onglet par rapport à l'onglet courant"
+   },
+   "moreScript": {
+      "message": "Script"
+   },
+   "moreScripttitle": {
+      "message": "Contenu du script"
+   },
+   "moreTarget": {
+      "message": "Position"
+   },
+   "moreTargettitle": {
+      "message": "Comment ouvrir un nouvel onglet : Onglet courant/nouvel onglet, premier/arrière plan"
+   },
+   "moreTsearchtitle": {
+      "message": "Moteurs de recherche de texte"
+   },
+   "moreURL": {
+      "message": "Adresse"
+   },
+   "moreURLtitle": {
+      "message": "Adresse, utilisez \"%s\" à la place de mots clés"
+   },
+   "moreaboutdrag": {
+      "message": "Plus.."
+   },
+   "morecur": {
+      "message": "Onglet courant"
+   },
+   "morenew": {
+      "message": "Nouvel onglet & Premier plan"
+   },
+   "morenewback": {
+      "message": "Nouvel onglet & Arrière plan"
+   },
+   "moresettings": {
+      "message": "Divers"
+   },
+   "morestrges": {
+      "message": "Paramêtres détaillés"
+   },
+   "msgbox": {
+      "message": "Paramêtres enregistrés ! Certains changements seront appliqués après rechargement"
+   },
+   "newadd": {
+      "message": "Nouveau"
+   },
+   "newback": {
+      "message": "Nouvel onglet & Arrière plan"
+   },
+   "newfront": {
+      "message": "Nouvel onglet & Premier plan"
+   },
+   "newgesture": {
+      "message": "Ajouter un nouveau"
+   },
+   "newtabdes": {
+      "message": "Ouvrir %name"
+   },
+   "normal": {
+      "message": "Paramêtres Généraux"
+   },
+   "opa": {
+      "message": "Transparence : "
+   },
+   "optgrpapp": {
+      "message": "APP"
+   },
+   "optgrpcopy": {
+      "message": "Copier"
+   },
+   "optgrpload": {
+      "message": "Charger"
+   },
+   "optgrpnav": {
+      "message": "Navigation"
+   },
+   "optgrpnone": {
+      "message": "Aucune"
+   },
+   "optgrpother": {
+      "message": "Autre"
+   },
+   "optgrpsave": {
+      "message": "Sauvegarder"
+   },
+   "optgrpscroll": {
+      "message": "Défiler"
+   },
+   "optgrpsearch": {
+      "message": "Recherche"
+   },
+   "optgrptab": {
+      "message": "Onglet"
+   },
+   "optgrptabnav": {
+      "message": "Navigation entre onglets"
+   },
+   "optgrpwindow": {
+      "message": "Fenêtre"
+   },
+   "pinned": {
+      "message": "Épingler"
+   },
+   "placeholderconfig": {
+      "message": "Collez ici la configuration puis cliquez sur Importer pour effectuer l'import. La configuration sera visible ici après appui sur le bouton Exporter et disponible pour un usage futur"
+   },
+   "placeholdername": {
+      "message": "Nom"
+   },
+   "placeholderscript": {
+      "message": "Script"
+   },
+   "placeholdersearchurl": {
+      "message": "Adresse, utilisez %s à la place de mots clés"
+   },
+   "placeholdertooltip": {
+      "message": "Nom de l'action"
+   },
+   "placeholderurl": {
+      "message": "Adresse"
+   },
+   "port": {
+      "message": "Importer/Exporter la configuration"
+   },
+   "porttip": {
+      "message": "Note : 1) L'importaion d'une configuration implique un redémarrage de l'extension. Les onglets ouverts devront donc être rechargés pour utiliser l'extension. \u003Cbr /> 2) Vous ne devriez importer une configuration qui a été exportée d'ici. Il n'est pas recommandé de la modifier manuellement. \u003Cbr /> 3) En cas d'erreur, veuillez remettre à zéro la configuration. "
+   },
+   "poschrome": {
+      "message": "Défaut de Chrome"
+   },
+   "poshead": {
+      "message": "Premier"
+   },
+   "poslast": {
+      "message": "Dernier"
+   },
+   "posleft": {
+      "message": "Gauche"
+   },
+   "posright": {
+      "message": "Droite"
+   },
+   "rateus": {
+      "message": "LIKE US? RATE US!"
+   },
+   "reset": {
+      "message": "Remise à zéro"
+   },
+   "resetall": {
+      "message": "Tout remettre à zéro"
+   },
+   "resetpage": {
+      "message": "Remettre à zéro cette page"
+   },
+   "resettip": {
+      "message": "Note: Cette action supprimera toutes les configurations, et remettra la configuration par défaut. Cette action ne peut pas être annulée, alors soyez prudent !"
+   },
+   "right": {
+      "message": "Droite"
+   },
+   "samazon": {
+      "message": "Amazon"
+   },
+   "save": {
+      "message": "Sauvegarder"
+   },
+   "sbaidu": {
+      "message": "Baidu"
+   },
+   "sbaiduimage": {
+      "message": "Rechercher une image avec Baidu"
+   },
+   "sbing": {
+      "message": "Bing"
+   },
+   "scractdown": {
+      "message": "Défiler vers le bas :"
+   },
+   "scractup": {
+      "message": "Défiler vers le haut :"
+   },
+   "scriptdes": {
+      "message": "Lancer le script : %name"
+   },
+   "scroll": {
+      "message": "Défiler"
+   },
+   "scrollaccele": {
+      "message": "Accélération du défilement"
+   },
+   "scrolleffects": {
+      "message": "Avec effet (pour monter ou descendre d'une page, et aller en haut ou en bas)."
+   },
+   "scrollgesture": {
+      "message": "Raccourcis molette"
+   },
+   "scrollspeed": {
+      "message": "Vitesse du défilement"
+   },
+   "searchdes": {
+      "message": "Utilisez %name pour faire une recherche : \"%s\""
+   },
+   "setdragurl": {
+      "message": "Activer le Glissé de liens si le texte est reconnu comme une adresse web (experimental)."
+   },
+   "settings": {
+      "message": "Paramêtres"
+   },
+   "sgoogle": {
+      "message": "Google"
+   },
+   "sgoogleimage": {
+      "message": "Rechercher une image avec Google"
+   },
+   "site": {
+      "message": "Site web"
+   },
+   "smooth": {
+      "message": "Défilement doux"
+   },
+   "staobao": {
+      "message": "Taobao"
+   },
+   "stars": {
+      "message": "CrxMouse vous plait ? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>Laissez une note de 5 étoiles !\u003C/a>"
+   },
+   "stenable": {
+      "message": "Activer la sélection de texte lorsque le bouton gauche de la souris est enfoncé (rend parfois certains raccourcis souris invalides)"
+   },
+   "stineyeimage": {
+      "message": "TinEye"
+   },
+   "stractleft": {
+      "message": "Cliquez le bouton gauche : "
+   },
+   "stractmiddle": {
+      "message": "Cliquez le bouton du milieu : "
+   },
+   "stractright": {
+      "message": "Cliquez le bouton droit : "
+   },
+   "strleft": {
+      "message": "Maintenez le bouton gauche cliqué"
+   },
+   "strmiddle": {
+      "message": "Maintenez le bouton du milieu cliqué"
+   },
+   "stroke": {
+      "message": "Afficher la trace de la souris"
+   },
+   "strokegesture": {
+      "message": "Raccourcis de bascule"
+   },
+   "strpress": {
+      "message": "Quand l'action doit-elle être déclenchée : "
+   },
+   "strpressdown": {
+      "message": "Au clic"
+   },
+   "strpressup": {
+      "message": "Au relachement du clic"
+   },
+   "strright": {
+      "message": "Maintenir cliqué le bouton droit"
+   },
+   "swiki": {
+      "message": "Wikipedia"
+   },
+   "syahoo": {
+      "message": "Yahoo"
+   },
+   "syandex": {
+      "message": "Yandex"
+   },
+   "sync": {
+      "message": "Synchroniser la configuration"
+   },
+   "syncdes": {
+      "message": "La configuration sera automatiquement synchronisée avec Chrome pour les utilisateurs \u003Ca href=\"https://accounts.google.com/ServiceLogin?service=chromiumsync\" target=\"_blank\">connectés\u003C/a>, si bien sur la synchronisation est activée."
+   },
+   "tablist": {
+      "message": "Liste des onglets"
+   },
+   "tablistkeyleft": {
+      "message": "Maintenez le bouton gauche appuyé, et défilez."
+   },
+   "tablistkeyright": {
+      "message": "Maintenez le bouton droit appuyé, et défilez."
+   },
+   "testlink": {
+      "message": "Lien de test"
+   },
+   "testwords": {
+      "message": "Texte de test"
+   },
+   "text": {
+      "message": "Texte"
+   },
+   "thanks": {
+      "message": "Remerciements"
+   },
+   "time": {
+      "message": "Durée"
+   },
+   "timeout": {
+      "message": "Délai"
+   },
+   "titlechromepage": {
+      "message": "Infobulle du nom de l'action, utilisez \"%name\" au lieu de l'adresse interne de Chrome"
+   },
+   "titlecopyuser": {
+      "message": "Infobulle du nom de l'action, utilisez \"%name\" au lieu du nom du format personnalisé"
+   },
+   "titleisearch": {
+      "message": "Infobulle du nom de l'action, utilisez \"%name\" au lieu du nom du moteur de recherche"
+   },
+   "titlenewusertab": {
+      "message": "Infobulle du nom de l'action, utilisez \"%name\" au lieu du nom du site"
+   },
+   "titlenexpre": {
+      "message": "Mots correspondants, séparez plusieurs mots avec \"|\", et l'extension détectera les rel, rev, id, innerHTML, title, class dans l'ordre."
+   },
+   "titlesearchuser": {
+      "message": "Adresse, utilisez \"%s\" au lieu des mots clés"
+   },
+   "titletsearch": {
+      "message": "Infobulle du nom de l'action, utilisez \"%name\" au lieu du moteur de recherche, \"%s\" au lieu du contenu"
+   },
+   "titleuserscript": {
+      "message": "Infobulle du nom de l'action, utilisez \"%name\" au lieu du nom de script"
+   },
+   "tooltip": {
+      "message": "Affiche le nom de l'action"
+   },
+   "translate": {
+      "message": "Traduire"
+   },
+   "unclose": {
+      "message": "Ne pas fermer, et ouvre l'adresse suivante"
+   },
+   "unpinned": {
+      "message": "Libérer"
+   },
+   "valuechromepage": {
+      "message": "ouvrir %name"
+   },
+   "valueisearch": {
+      "message": "Utiliser %name pour rechercher une image"
+   },
+   "valuenewusertab": {
+      "message": "ouvrir %name"
+   },
+   "valuenone": {
+      "message": "Aucune"
+   },
+   "valuetsearch": {
+      "message": "Utiliser %name pour rechercher \"%s\""
+   },
+   "valueuserscript": {
+      "message": "Exécute le script :\"%name\""
+   },
+   "version": {
+      "message": "Version"
+   },
+   "whencapture": {
+      "message": "Quand effectuer une impression écran : "
+   },
+   "width": {
+      "message": "Largeur :"
+   }
+}

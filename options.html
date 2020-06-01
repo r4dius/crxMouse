@@ -1,536 +1,929 @@
-<!doctype html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Settings</title>
-<link href="css/chrome.css" type="text/css" rel="stylesheet" />
 <link href="css/options.css" type="text/css" rel="stylesheet" />
 <link href="css/event.css" type="text/css" rel="stylesheet" />
+<link href="css/material.css" type="text/css" rel="stylesheet">
 </head>
-
 <body>
-
-    <div id="wrap">
-    	<div id="fastreset"></div>
-    	<div id="msgbox" data-i18ninner="msgbox"></div>
-    	<div id="addbox">
-        	<div id="addtip"></div>
-        	<div id="addcontent">
-            	<div id="addcontenttext" data-i18ninner="testwords"></div>
-                <div id="addcontentlink"><a href="###" data-i18ninner="testlink"></a></div>
-                <div id="addcontentimg"><img src="icon.png" /></div>
-            </div>
-            <div id="adddirect"></div>
-            <div id="addwrap"></div>
-            <div id="addbutton">
-                <form>
-                    <input class="addok i18nvalue" type="button" value="save" />
-                    <input id="addcancel" class="i18nvalue" type="button" value="cancel" />
-                </form>            	
-            </div>
-        </div>
-        
-        <div id="logo">
-            <img src="icon.png" style="position:fixed"/><span style="width: 120px;text-align: right;overflow: hidden;  float:right;	font-size:26px;color:#53637D; padding-right:30px;" data-i18ninner="settings"></span>
-        </div>
-
-        
-        <div id="optname" data-i18ninner="normal"><a href="###"></a></div>
-      
-        <div id="optnameclear"></div>
-        
+	<div id="wrap">
+		<div id="fastreset"></div>
+		<div id="smsgbox" class="mdl-js-snackbar mdl-snackbar">
+		  <div class="mdl-snackbar__text"></div>
+		  <button class="mdl-snackbar__action" type="button"></button>
+		</div>
+		<div id="addbox">
+			<div id="addtip"></div>
+			<div id="addcontent">
+				<div id="addcontenttext" data-i18ninner="testwords"></div>
+				<div id="addcontentlink"><a href="###" data-i18ninner="testlink"></a></div>
+				<div id="addcontentimg"><img src="icon.png" /></div>
+			</div>
+			<div id="adddirect"></div>
+			<div id="addwrap"></div>
+			<div id="addbutton">
+				<form>
+					<input class="addok i18nvalue" type="button" value="save" />
+					<input id="addcancel" class="i18nvalue" type="button" value="cancel" />
+				</form>
+			</div>
+		</div>
+		<div id="pagetitle">
+			<span data-i18ninner="extnamejson"></span>
+		</div>
+		<div id="optname"><a href="###"></a></div>
+		<div id="optnameclear"></div>
+		<div id="container">
 		<ul id="menu">
-        	<li id="linormal" class="selli" data-i18ninner="normal"></li>
-            <li id="ligesture" data-i18ninner="gesture"></li>
-        	<li id="lidrag" data-i18ninner="drag"></li>
-            <li id="liscroll" data-i18ninner="scroll"></li>
-            <li id="liscrollgesture" data-i18ninner="scrollgesture"></li>
-            <li id="listrokegesture" data-i18ninner="strokegesture"></li>
-            <li id="liadvanced" data-i18ninner="advanced"></li>
-            <li id="lihelp" data-i18ninner="help" style="display:none"></li>
-            <li id="liabout" data-i18ninner="about"></li>
-        </ul>
-        <div class="tab" id="tabnormal">
-        	<div class="opts">
-            	<div class="opttitle" data-i18ninner="fnswitch"></div>
-                <div class="optcontent">
-                	<form>
-                    	<input id="gesture" class="norcheck" type="checkbox"/><label for="gesture" data-i18ninner="fngesture"></label><br />
-                        <input id="drag" class="norcheck" type="checkbox"/><label for="drag" data-i18ninner="fndrag"></label><br />
-                        <input id="scroll" class="norcheck" type="checkbox" /><label for="scroll" data-i18ninner="fnscroll"></label><br />
-                        <input id="scrollgesture" class="norcheck" type="checkbox" /><label for="scrollgesture"  data-i18ninner="fnscrollgesture"></label><br />
-                        <input id="strokegesture" class="norcheck" type="checkbox" /><label for="strokegesture"  data-i18ninner="fnstrokegesture"></label><br />
-                        <input id="backgroundtab" class="norcheck" type="checkbox" /><label for="backgroundtab"  data-i18ninner="fnbackgroundtab"></label>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="moresettings"></div>
-                <div class="optcontent">
-                	<form>
-                    	<input id="autocancel" class="norcheck" type="checkbox" /><label for="autocancel" data-i18ninner="timeout"></label><br /><label for="autocancelvalue" class="padding12" data-i18ninner="time"></label><input id="autocancelvalue" class="norrange" type="range" min="1" max="5" step="1" /><span id="autocancelvaluehold" class="norrangehold"></span><br />
-                        <input class="norcheck" id="scrolleffects" type="checkbox" /><label for="scrolleffects" data-i18ninner="scrolleffects"></label><br />                     
-                        <label for="minilength" data-i18ninner="minilength"></label><input id="minilength" class="norrange" type="range" min="5" max="50" step="1" /><span id="minilengthhold" class="norrangehold"></span><br />
-                    </form>
-                </div>
-            </div>
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="linuxsettings"></div>
-                <div class="optcontent">
-                	<form>
-                        <input class="norcheck" id="cancelcontextmenu" type="checkbox" /><label for="cancelcontextmenu" data-i18ninner="cancelcontextmenu"></label><br />
-                        <label for="dbclicktime" class="padding12" data-i18ninner="dbclicktime"></label><input id="dbclicktime" class="norrange" type="range" min="500" max="2000" step="100" /><span id="dbclicktimehold" class="norrangehold"></span><br />
-                        <span class="optionsdes" data-i18ninner="cancelcontextmenudes"></span>
-                    </form><br />
-                </div>
-            </div>
-        </div>
-        <div class="tab" id="tabgesture">
-        	<div class="opts">
-            	<div class="opttitle" data-i18ninner="gestureui"></div>
-                <div class="optcontent" style="width:400px; float:left; margin-left:0;">
-                	<form>
-                    	<input id="gestureui" class="gescheck" type="checkbox" /><label for="gestureui" data-i18ninner="enableui"></label><br />
-                        
-                    	<input id="stroke" class="gescheck" type="checkbox"/><label for="stroke" data-i18ninner="stroke"></label><br />
-                        <label for="strokecolor" class="padding12" data-i18ninner="color"></span></label><input id="strokecolor" class="gestext fncolor" type="text" /><br />
-                        <label for="strokeopa" class="padding12" data-i18ninner="opa"></label><input id="strokeopa" class="gesrange" type="range" min="0.1" max="1" step="0.1" /><span id="strokeopahold" class="gesrangehold"></span><br />
-                        <label for="strokewidth" class="padding12" data-i18ninner="width"></label><input id="strokewidth" class="gesrange" type="range" min="1" max="20" step="1" /><span id="strokewidthhold" class="gesrangehold"></span><br />
-                        
-                        <input id="direct" class="gescheck" type="checkbox"/><label for="direct" data-i18ninner="direct"></label><br />
-                        <label for="directcolor" class="padding12" data-i18ninner="color"></label><input id="directcolor" class="gestext fncolor" type="text" /><br />
-                        <label for="directopa" class="padding12" data-i18ninner="opa"></label><input id="directopa" class="gesrange" type="range" min="0.1" max="1" step="0.1" /><span id="directopahold" class="gesrangehold"></span><br />
-                        
-                        <input id="tooltip" class="gescheck" type="checkbox"/><label for="tooltip" data-i18ninner="tooltip"></label><br />
-                        <label for="tooltipcolor" class="padding12" data-i18ninner="color"></label><input id="tooltipcolor" class="gestext fncolor" type="text" /><br />
-                        <label for="tooltipopa" class="padding12" data-i18ninner="opa"></label><input id="tooltipopa" class="gesrange" type="range" min="0.1" max="1" step="0.1" /><span id="tooltipopahold" class="gesrangehold"></span><br />
-                        <label for="tooltipwidth" class="padding12" data-i18ninner="width"></label><input id="tooltipwidth" class="gesrange" type="range" min="12" max="48" step="1" /><span id="tooltipwidthhold" class="gesrangehold"></span>
-                    </form>
-                </div>
-                <div class="linehold" id="gesturelinehold">Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.
-                    <div class="line" id="gestureline"></div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="moreaboutdrag"></div>
-                <div class="optcontent">
-                	<form>
-                    	<label for="geskey" data-i18ninner="geskey"></label>
-                        <select id="geskey" class="gesselect" style="margin-left:12px; width:140px;">
-                       		<option value="right" data-i18ninner="geskeyright"></option>
-                            <option value="middle" data-i18ninner="geskeymiddle"></option>
-                            <option value="left" data-i18ninner="geskeyleft"></option>
-                        </select><br />
-                        <input id="stenable" class="gescheck" type="checkbox" style="margin-left:12px;"><label for="stenable" data-i18ninner="stenable"></label><br />
-                        <span id="geskeydes" class="padding12" style="font-size:12px; color:#999; display:block;"  data-i18ninner="geskeydes"></span>
-                    	<label for="gholdkey" data-i18ninner="gholdkey"></label>
-                        <select id="gholdkey" class="gesselect" style="margin-left:12px; width:70px;">
-                       		<option value="none" data-i18ninner="valuenone">none</option>
-                            <option value="alt">Alt</option>
-                            <option value="ctrl">Ctrl</option>
-                            <option value="shift">Shift</option>
-                        </select>
-                    </form>
-                </div>
-            </div>
-            
-        	<div class="opts">
-            	<div class="opttitle" data-i18ninner="newadd"></div>
-                <div class="optcontent">
-                	<form>
-                    	<input id="addgesture" class="newadd" type="button" value="newgesture" />
-                    </form>
-                </div>
-            </div>
-            
-        	<div class="opts">
-            	<div class="opttitle" data-i18ninner="editgesture"></div>
-                <div class="optcontent" id="editgesture"></div>
-            </div>
-            <div style="clear:both"></div>
-        </div>
+			<li id="linormal" class="selli">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M18.8,15.7l-7.4-7.5c0.7-1.9,0.3-4.1-1.2-5.7c-1.6-1.6-4.1-2-6-1.1L7.6,5L5.1,7.5L1.5,4c-1,2-0.6,4.4,1.1,6.1c1.6,1.6,3.8,2,5.6,1.2l7.4,7.5c0.3,0.3,0.8,0.3,1.1,0l1.9-1.9C19.1,16.5,19.1,16,18.8,15.7z"/></g></svg>
+				<span class="li" data-i18ninner="normal"></span>
+			</li>
+			<li id="ligesture">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M4.7,18.6L5.5,19l4.5-4.8l6.7,0.2l0.3-0.8L4.7,1V18.6z"/></g></svg>
+				<span class="li" data-i18ninner="gesture"></span>
+			</li>
+			<li id="lidrag">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M18,5.1V16c0,1.6-1.3,3-3,3H9.5c-0.8,0-1.6-0.3-2.1-0.9l-5.6-6c0,0,0.9-0.9,1-0.9C2.9,11,3.1,11,3.3,11 c0.2,0,0.3,0,0.5,0.1c0,0,3.2,1.8,3.2,1.8V4c0-0.6,0.4-1.1,1-1.1S9,3.4,9,4v5.3h1V2.1C10,1.5,10.4,1,11,1s1,0.5,1,1.1v7.1h1V2.9 c0-0.6,0.4-1.1,1-1.1s1,0.5,1,1.1v6.4h1V5.1C16,4.5,16.4,4,17,4S18,4.5,18,5.1z"/></g></svg>
+				<span class="li" data-i18ninner="drag"></span>
+			</li>
+			<li id="liscroll">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><g><polygon points="14,5 6,5 10,0"/></g><g><polygon points="14,15 6,15 10,20"/></g><circle cx="10" cy="10" r="3"/></svg>
+				<span class="li" data-i18ninner="scroll"></span>
+			</li>
+			<li id="liscrollgesture">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M10,1C7.3,1,4,2.6,4,6v8c0,3.4,3.3,5,6,5s6-1.5,6-5V6C16,2.6,12.8,1,10,1z M11,7c0,0.8-0.5,1-1,1S9,7.8,9,7V4 c0-0.8,0.5-1,1-1s1,0.3,1,1V7z"/></svg>
+				<span class="li" data-i18ninner="scrollgesture"></span>
+			</li>
+			<li id="listrokegesture">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M13,9.2c0-0.6,0.4-1.1,1-1.1s1,0.5,1,1.1v0.1h1V5.1C16,4.5,16.4,4,17,4s1,0.5,1,1.1V16c0,1.6-1.3,3-3,3H9.5 c-0.8,0-1.6-0.3-2.1-0.9l-5.6-6c0,0,0.9-0.9,1-0.9C2.9,11,3.1,11,3.3,11s0.3,0,0.5,0.1L7,12.9V4c0-0.6,0.4-1.1,1-1.1S9,3.4,9,4v5.3 h1V9.1C10,8.5,10.4,8,11,8s1,0.5,1,1.1v0.1"/></g></svg>
+				<span class="li" data-i18ninner="strokegesture"></span>
+			</li>
+			<li id="liadvanced">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M16.7,10.9c0-0.3,0.1-0.6,0.1-0.9c0-0.3,0-0.6-0.1-0.9l1.9-1.5c0.2-0.1,0.2-0.4,0.1-0.6L16.9,4c-0.1-0.2-0.3-0.3-0.6-0.2 l-2.2,0.9c-0.5-0.4-1-0.7-1.5-0.9l-0.3-2.4C12.2,1.2,12,1,11.8,1H8.2C8,1,7.8,1.2,7.8,1.4L7.4,3.8C6.9,4,6.4,4.3,5.9,4.6L3.7,3.7 C3.5,3.7,3.2,3.7,3.1,4L1.3,7.1C1.2,7.3,1.2,7.5,1.4,7.6l1.9,1.5c0,0.3-0.1,0.6-0.1,0.9s0,0.6,0.1,0.9l-1.9,1.5 c-0.2,0.1-0.2,0.4-0.1,0.6L3.1,16c0.1,0.2,0.3,0.3,0.6,0.2l2.2-0.9c0.5,0.4,1,0.7,1.5,0.9l0.3,2.4C7.8,18.8,8,19,8.2,19h3.6 c0.2,0,0.4-0.2,0.4-0.4l0.3-2.4c0.6-0.2,1.1-0.5,1.5-0.9l2.2,0.9c0.2,0.1,0.4,0,0.6-0.2l1.8-3.1c0.1-0.2,0.1-0.4-0.1-0.6 C18.6,12.4,16.7,10.9,16.7,10.9z M10,13.4c-1.9,0-3.4-1.5-3.4-3.4S8.1,6.6,10,6.6s3.4,1.5,3.4,3.4S11.9,13.4,10,13.4z"/></g></svg>
+				<span class="li" data-i18ninner="advanced"></span>
+			</li>
+			<li id="liabout">
+				<svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M10,1c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S15,1,10,1z M10.9,14.5H9.1V9.1h1.8V14.5z M10.9,7.3H9.1V5.5h1.8V7.3z"/></svg>
+				<span class="li" data-i18ninner="about"></span>
+			</li>
+		</ul>
+		<div class="tab" id="tabnormal">
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="fnswitch"></div>
+				<div class="optcontent">
+					<form>
+						<div class="flex">
+							<label for="gesture" class="optline flexl notopborder" data-i18ninner="fngesture"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="gesture">
+							  <input type="checkbox" id="gesture" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="drag" class="optline flexl notopborder" data-i18ninner="fndrag"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="drag">
+							  <input type="checkbox" id="drag" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="scroll" class="optline flexl notopborder" data-i18ninner="fnscroll"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="scroll">
+							  <input type="checkbox" id="scroll" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="scrollgesture" class="optline flexl notopborder" data-i18ninner="fnscrollgesture"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="scrollgesture">
+							  <input type="checkbox" id="scrollgesture" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="strokegesture" class="optline flexl notopborder" data-i18ninner="fnstrokegesture"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="strokegesture">
+							  <input type="checkbox" id="strokegesture" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="backgroundtab" class="optline flexl notopborder" data-i18ninner="fnbackgroundtab"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="backgroundtab">
+							  <input type="checkbox" id="backgroundtab" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="moresettings"></div>
+				<div class="optcontent">
+					<form>
+						<div class="flex">
+							<label for="autocancel" class="optline flexl notopborder" data-i18ninner="timeout"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="autocancel">
+							  <input type="checkbox" id="autocancel" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div id="tglautocancel" class="hide">
+							<div class="flex">
+								<label for="autocancelvalue" class="optsubline flexl notopborder nohand" data-i18ninner="time"></label>
+								<select id="autocancelvalue" class="norselect selright md-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</div>
+						</div>
+						<div class="flex topborder">
+							<label for="scrolleffects" class="optline flexl notopborder" data-i18ninner="scrolleffects"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="scrolleffects">
+							  <input type="checkbox" id="scrolleffects" class="norcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div id="tglscrolleffects" class="hide">
+							<div class="flex">
+								<label for="minilength" class="optsubline flexl notopborder nohand" data-i18ninner="minilength"></label>
+								<select id="minilength" class="norselect selright md-select">
+									<option value="5">5</option>
+									<option value="10">10</option>
+									<option value="15">15</option>
+									<option value="20">20</option>
+									<option value="25">25</option>
+									<option value="30">30</option>
+									<option value="35">35</option>
+									<option value="40">40</option>
+									<option value="45">45</option>
+									<option value="50">50</option>
+								</select>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="opts linux">
+				<div class="opttitle" data-i18ninner="linuxsettings"></div>
+				<div class="optcontent">
+					<form>
+						<div class="flex">
+							<label for="cancelcontextmenu" class="optline flexl notopborder" data-i18ninner="cancelcontextmenu"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="cancelcontextmenu">
+							<input type="checkbox" id="cancelcontextmenu" class="norcheck mdl-switch__input">
+							<span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div id="tglcancelcontextmenu" class="hide">
+							<div class="flex">
+								<label for="dbclicktime" class="optsubline flexl notopborder nohand" data-i18ninner="dbclicktime"></label>
+								<select id="dbclicktime" class="norselect selright md-select">
+									<option value="500">500</option>
+									<option value="600">600</option>
+									<option value="700">700</option>
+									<option value="800">800</option>
+									<option value="900">900</option>
+									<option value="1000">1000</option>
+									<option value="1100">1100</option>
+									<option value="1200">1200</option>
+									<option value="1300">1300</option>
+									<option value="1400">1400</option>
+									<option value="1500">1500</option>
+									<option value="1600">1600</option>
+									<option value="1700">1700</option>
+									<option value="1800">1800</option>
+									<option value="1900">1900</option>
+									<option value="2000">2000</option>
+								</select>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="blackList">Site Blacklist</div>
+				<div class="optcontent">
+					<div class="optline notopborder">
+						<form>
+							<div class="flex">
+								<textarea id="blacklist" wrap="virtual" placeholder="example.com"></textarea>
+							</div>
+							<div class="flex notoppadding">
+								<span class="flexl" data-i18ninner="blacklistTip">Note: 1: crxMouse won't run on these sites.<br/>2:One domain per line, user Enter to new line;</span>
+								<input id="savebl" type="button" value="Save">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab" id="tabgesture">
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="gestureui"></div>
+				<div class="optcontent">
+					<form>
+						<div class="flex">
+							<label for="gestureui" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="gestureui">
+							  <input type="checkbox" id="gestureui" class="gescheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div id="tglgestureui" class="hide">
+							<div class="linehold" id="gesturelinehold">It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words.
+								<div class="line" id="gestureline"></div>
+							</div>
+							<div class="flex">
+								<label for="stroke" class="optsubline flexl notopborder" flexl data-i18ninner="stroke"></label>
+								<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="stroke">
+									<input type="checkbox" id="stroke" class="gescheck mdl-switch__input">
+									<span class="mdl-switch__label"></span>
+								</label>
+							</div>
+							<div id="tglstroke" class="hide">
+								<div class="optsubline2 notopborder">
+									<div class="flex">
+										<label for="strokecolor" class="flexl nohand" data-i18ninner="color"></label>
+										<input id="strokecolor" class="gestext fncolor norightmargin" type="color" />
+									</div>
+									<div class="flex topborder">
+										<label for="strokeopa" class="flexl nohand" data-i18ninner="opa"></label>
+										<input id="strokeopa" type="range" class="gesrange rangeright mdl-slider mdl-js-slider" min="0.1" max="1" step="0.1"><span id="strokeopahold" class="gesrangehold"></span>
+									</div>
+									<div class="flex topborder">
+										<label for="strokewidth" class="flexl nohand" data-i18ninner="width"></label>
+										<input id="strokewidth" type="range" class="gesrange rangeright mdl-slider mdl-js-slider" min="1" max="20" step="1"><span id="strokewidthhold" class="gesrangehold"></span>
+									</div>
+								</div>
+							</div>
+							<div class="optsubline flex">
+								<label for="direct" class="flexl" data-i18ninner="direct"></label>
+								<label class="tgl-right subrightmargin mdl-switch mdl-js-switch mdl-js-ripple-effect" for="direct">
+								  <input type="checkbox" id="direct" class="gescheck mdl-switch__input">
+								  <span class="mdl-switch__label"></span>
+								</label>
+							</div>
+							<div id="tgldirect" class="hide">
+								<div class="optsubline2 notopborder">
+									<div class="flex">
+										<label for="directcolor" class="flexl nohand" data-i18ninner="color"></label>
+										<input id="directcolor" class="gestext fncolor norightmargin" type="color" />
+									</div>
+									<div class="flex topborder">
+										<label for="directopa" class="flexl nohand" data-i18ninner="opa"></label>
+										<input id="directopa" type="range" class="gesrange rangeright mdl-slider mdl-js-slider" min="0.1" max="1" step="0.1"><span id="directopahold" class="gesrangehold"></span>
+									</div>
+								</div>
+							</div>
+							<div class="optsubline flex">
+								<label for="tooltip" class="flexl" data-i18ninner="tooltip"></label>
+								<label class="tgl-right subrightmargin mdl-switch mdl-js-switch mdl-js-ripple-effect" for="tooltip">
+									<input type="checkbox" id="tooltip" class="gescheck mdl-switch__input">
+									<span class="mdl-switch__label"></span>
+								</label>
+							</div>
+							<div id="tgltooltip" class="hide">
+								<div class="optsubline2 notopborder">
+									<div class="flex">
+										<label for="tooltipcolor" class="flexl nohand" data-i18ninner="color"></label>
+										<input id="tooltipcolor" class="gestext norightmargin fncolor" type="color" />
+									</div>
+									<div class="flex topborder">
+										<label for="tooltipopa" class="flexl nohand" data-i18ninner="opa"></label>
+										<input id="tooltipopa" type="range" class="gesrange rangeright mdl-slider mdl-js-slider" min="0.1" max="1" step="0.1">
+										<span id="tooltipopahold" class="gesrangehold"></span>
+									</div>
+									<div class="flex topborder">
+										<label for="tooltipwidth" class="flexl nohand" data-i18ninner="width"></label>
+										<input id="tooltipwidth" type="range" class="gesrange rangeright mdl-slider mdl-js-slider" min="12" max="48" step="1">
+										<span id="tooltipwidthhold" class="gesrangehold"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="moreaboutdrag"></div>
+				<div class="optcontent">
+					<form>
+						<div class="optline flex">
+							<label for="geskey" class="flexl notopborder nohand" data-i18ninner="geskey"></label>
+							<select id="geskey" class="norselect selright norightmargin md-select">
+								<option value="right" data-i18ninner="geskeyright"></option>
+								<option value="middle" data-i18ninner="geskeymiddle"></option>
+								<option value="left" data-i18ninner="geskeyleft"></option>
+							</select>
+						</div>
+						<div class="optline flex">
+							<label for="stenable" class="flexl" data-i18ninner="stenable"></label>
+							<label class="tgl-right subrightmargin mdl-switch mdl-js-switch mdl-js-ripple-effect" for="stenable">
+								<input type="checkbox" id="stenable" class="gescheck mdl-switch__input">
+								<span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="optline flex">
+							<label for="gholdkey" class="flexl nohand" data-i18ninner="gholdkey"></label>
+							<select id="gholdkey" class="norselect norightmargin selright md-select">
+								<option value="none" data-i18ninner="valuenone">none</option>
+								<option value="alt">Alt</option>
+								<option value="ctrl">Ctrl</option>
+								<option value="shift">Shift</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="newadd"></div>
+				<form>
+					<button type="button" id="addgesture" class="newadd mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" value="newgesture">
+						<i class="material-icons">add</i>
+					</button>
+				</form>
+			</div>
+			<div class="opts hide">
+				<div class="opttitle" data-i18ninner="editgesture"></div>
+				<div class="optcontent" id="editgesture">
+					<div id="tgleditgesture"></div>
+				</div>
+			</div>
+			<div style="clear:both;margin-top:64px;"></div>
+		</div>
 		<div class="tab" id="tabdrag">
-        	<div class="opts">
-            	<div class="opttitle" data-i18ninner="dragui"></div>
-                <div class="optcontent"  style="width:400px; float:left; margin-left:0;">
-                	<form>
-						<input id="dragui" class="drgcheck" type="checkbox" /><label for="dragui" data-i18ninner="enableui"></label><br />
-                    
-                    	<input id="dstroke" class="drgcheck" type="checkbox"/><label for="dstroke" data-i18ninner="stroke"></label><br />
-                        <label for="dstrokecolor" class="padding12" data-i18ninner="color"></label><input id="dstrokecolor" class="drgtext fncolor" type="text" /><br />
-                        <label for="dstrokeopa" class="padding12" data-i18ninner="opa"></label><input id="dstrokeopa" class="drgrange" type="range" min="0.1" max="1" step="0.1" /><span id="dstrokeopahold" class="drgrangehold"></span><br />
-                        <label for="dstrokewidth" class="padding12" data-i18ninner="width"></label><input id="dstrokewidth" class="drgrange" type="range" min="1" max="20" step="1" /><span id="dstrokewidthhold" class="drgrangehold"></span><br />
-                        
-                        <input id="ddirect" class="drgcheck" type="checkbox"/><label for="ddirect" data-i18ninner="direct"></label><br />
-                        <label for="ddirectcolor" class="padding12" data-i18ninner="color"></label><input id="ddirectcolor" class="drgtext fncolor" type="text" /><br />
-                        <label for="ddirectopa" class="padding12" data-i18ninner="opa"></label><input id="ddirectopa" class="drgrange" type="range" min="0.1" max="1" step="0.1" /><span id="ddirectopahold" class="drgrangehold"></span><br />
-                        
-                        <input id="dtooltip" class="drgcheck" type="checkbox"/><label for="dtooltip" data-i18ninner="tooltip"></label><br />
-                        <label for="dtooltipcolor" class="padding12" data-i18ninner="color"></label><input id="dtooltipcolor" class="drgtext fncolor" type="text" /><br />
-                        <label for="dtooltipopa" class="padding12" data-i18ninner="opa"></label><input id="dtooltipopa" class="drgrange" type="range" min="0.1" max="1" step="0.1" /><span id="dtooltipopahold" class="drgrangehold"></span><br />
-                        <label for="tooltipwidth" class="padding12" data-i18ninner="width"></label><input id="dtooltipwidth" class="drgrange" type="range" min="12" max="48" step="1" /><span id="dtooltipwidthhold" class="drgrangehold"></span>
-                    </form>
-                </div>
-                <div class="linehold" id="draglinehold">Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.Its just for a test.these are test words.
-                    <div class="line" id="dragline"></div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="moreaboutdrag"></div>
-                <div class="optcontent">
-                	<form>
-                    	<input id="dragtext" class="drgcheck" type="checkbox" /><label for="dragtext" data-i18ninner="enabledragtext">qiyong</label><br />
-                        <input id="draglink" class="drgcheck" type="checkbox" /><label for="dragtext" data-i18ninner="enabledraglink">qiyong</label><br />
-                        <input id="dragimage" class="drgcheck" type="checkbox" /><label for="dragtext" data-i18ninner="enabledragimage">qiyong</label><br />
-                        <input id="draginput" class="drgcheck" type="checkbox" /><label for="draginput" data-i18ninner="draginput"></label><br />
-                        <input id="setdragurl" class="drgcheck" type="checkbox" /><label for="setdragurl" data-i18ninner="setdragurl"></label><br />
-                        <input id="imgfirstcheck" class="drgcheck" type="checkbox" /><label for="imgfirstcheck" data-i18ninner="imgfirstcheck"></label><br />
-                    	<label for="imgfirst" data-i18ninner="imgfirst"></label>
-                        <select id="imgfirst" class="drgselect" style="margin-left:12px; width:70px;">
-                       		<option value="none" data-i18ninner="valuenone"></option>
-                            <option value="alt">Alt</option>
-                            <option value="ctrl">Ctrl</option>
-                            <option value="shift">Shift</option>
-                        </select><br />
-                    	<label for="dholdkey" data-i18ninner="dholdkey"></label>
-                        <select id="dholdkey" class="drgselect" style="margin-left:12px; width:70px;">
-                       		<option value="none" data-i18ninner="valuenone">none</option>
-                            <option value="alt">Alt</option>
-                            <option value="ctrl">Ctrl</option>
-                            <option value="shift">Shift</option>
-                        </select><br />
-                    </form>
-                </div>
-            </div>            
-            
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="newadd"></div>
-                <div class="optcontent">
-                	<form>
-                    	<input id="addtext" class="newadd" type="button" value="text" />
-                        <input id="addlink" class="newadd" type="button" value="link" />
-                        <input id="addimage" class="newadd" type="button" value="image" />
-                    </form>
-                </div>
-            </div>
-            
-          	<div class="opts">
-           		<div class="opttitle" data-i18ninner="edittext"></div>
-				<div class="optcontent" id="edittext"> </div>
-            </div>
-            
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="editlink"></div>
-                <div class="optcontent" id="editlink"></div>
-            </div>
-            
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="editimage"></div>
-            	<div class="optcontent" id="editimage"></div>
-            </div> 
-            <div style="clear:both"></div>
-        </div>
-        <div class="tab" id="tabscroll">
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="smooth"></div>
-                <div class="optcontent">
-                	<form>
-                    	<input class="scrcheck" id="smooth" type="checkbox" /><label for="smooth" data-i18ninner="fnsmooth"></label><br />
-                        <label for="scrollspeed" class="padding12" data-i18ninner="scrollspeed"></label><input id="scrollspeed" class="scrrange" type="range" min="1" max="10" step="1" /><span id="scrollspeedhold" class="scrrangehold"></span><br />
-                        <label for="scrollaccele" class="padding12" data-i18ninner="scrollaccele"></label><input id="scrollaccele" class="scrrange" type="range" min="0" max="10" step="1" /><span id="scrollaccelehold" class="scrrangehold"></span>
-                    </form>
-                </div>
-            </div>	
-        </div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="dragui"></div>
+				<div class="optcontent">
+					<form>
+						<div class="flex">
+							<label for="dragui" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="dragui">
+							  <input type="checkbox" id="dragui" class="drgcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div id="tgldragui" class="hide">
+							<div class="linehold" id="draglinehold">It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test. These are test words. It's just for a test.these are test words.
+								<div class="line" id="dragline"></div>
+							</div>
+							<div class="optsubline flex notopborder">
+								<label for="dstroke" class="flexl" data-i18ninner="stroke"></label>
+								<label class="tgl-right subrightmargin mdl-switch mdl-js-switch mdl-js-ripple-effect" for="dstroke">
+								  <input type="checkbox" id="dstroke" class="drgcheck mdl-switch__input">
+								  <span class="mdl-switch__label"></span>
+								</label>
+							</div>
+							<div id="tgldstroke" class="hide">
+								<div class="optsubline2 notopborder"> 
+									<div class="flex">
+										<label for="dstrokecolor" class="flexl nohand" data-i18ninner="color"></label>
+										<input id="dstrokecolor" class="drgtext norightmargin fncolor" type="color" />
+									</div>
+									<div class="flex topborder">
+										<label for="dstrokeopa" class="flexl nohand" data-i18ninner="opa"></label>
+										<input id="dstrokeopa" type="range" class="drgrange rangeright mdl-slider mdl-js-slider" min="0.1" max="1" step="0.1">
+										<span id="dstrokeopahold" class="drgrangehold"></span>
+									</div>
+									<div class="flex topborder">
+										<label for="dstrokewidth" class="flexl nohand" data-i18ninner="width"></label>
+										<input id="dstrokewidth" type="range" class="drgrange rangeright mdl-slider mdl-js-slider" min="1" max="20" step="1">
+										<span id="dstrokewidthhold" class="drgrangehold"></span>
+									</div>
+								</div>
+							</div>
+							<div class="optsubline flex">
+								<label for="ddirect" class="flexl" data-i18ninner="direct"></label>
+								<label class="tgl-right subrightmargin mdl-switch mdl-js-switch mdl-js-ripple-effect" for="ddirect">
+								  <input type="checkbox" id="ddirect" class="drgcheck mdl-switch__input">
+								  <span class="mdl-switch__label"></span>
+								</label>
+							</div>
+							<div id="tglddirect" class="hide">
+								<div class="optsubline2 notopborder"> 
+									<div class="flex">
+										<label for="ddirectcolor" class="flexl nohand" data-i18ninner="color"></label>
+										<input id="ddirectcolor" class="drgtext norightmargin fncolor" type="color" />
+									</div>
+									<div class="flex topborder">
+										<label for="ddirectopa" class="flexl nohand" data-i18ninner="opa"></label>
+										<input id="ddirectopa" type="range" class="drgrange rangeright mdl-slider mdl-js-slider" min="0.1" max="1" step="0.1">
+										<span id="ddirectopahold" class="drgrangehold"></span>
+									</div>
+								</div>
+							</div>
+							<div class="optsubline flex">
+								<label for="dtooltip" class="flexl" data-i18ninner="tooltip"></label>
+								<label class="tgl-right subrightmargin mdl-switch mdl-js-switch mdl-js-ripple-effect" for="dtooltip">
+								  <input type="checkbox" id="dtooltip" class="drgcheck mdl-switch__input">
+								  <span class="mdl-switch__label"></span>
+								</label>
+							</div>
+							<div id="tgldtooltip" class="hide">
+								<div class="optsubline2 notopborder"> 
+									<div class="flex">
+										<label for="dtooltipcolor" class="flexl nohand" data-i18ninner="color"></label>
+										<input id="dtooltipcolor" class="drgtext norightmargin fncolor" type="color" />
+									</div>
+									<div class="flex topborder">
+										<label for="dtooltipopa" class="flexl nohand" data-i18ninner="opa"></label>
+										<input id="dtooltipopa" type="range" class="drgrange rangeright mdl-slider mdl-js-slider" min="0.1" max="1" step="0.1">
+										<span id="dtooltipopahold" class="drgrangehold"></span>
+									</div>
+									<div class="flex topborder">
+										<label for="dtooltipwidth" class="flexl nohand" data-i18ninner="width"></label>
+										<input id="dtooltipwidth" type="range" class="drgrange rangeright mdl-slider mdl-js-slider" min="12" max="48" step="1">
+										<span id="dtooltipwidthhold" class="drgrangehold"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="moreaboutdrag"></div>
+				<div class="optcontent">
+					<form>
+						<div class="flex">
+							<label for="dragtext" class="optline flexl notopborder" data-i18ninner="enabledragtext"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="dragtext">
+							  <input type="checkbox" id="dragtext" class="drgcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="draglink" class="optline flexl notopborder" data-i18ninner="enabledraglink"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="draglink">
+							  <input type="checkbox" id="draglink" class="drgcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="dragimage" class="optline flexl notopborder" data-i18ninner="enabledragimage"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="dragimage">
+							  <input type="checkbox" id="dragimage" class="drgcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="draginput" class="optline flexl notopborder" data-i18ninner="draginput"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="draginput">
+							  <input type="checkbox" id="draginput" class="drgcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="setdragurl" class="optline flexl notopborder" data-i18ninner="setdragurl"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="setdragurl">
+							  <input type="checkbox" id="setdragurl" class="drgcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="imgfirstcheck" class="optline flexl notopborder" data-i18ninner="imgfirstcheck"></label>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="imgfirstcheck">
+							  <input type="checkbox" id="imgfirstcheck" class="drgcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</div>
+						<div class="flex topborder">
+							<label for="imgfirst" class="optline flexl notopborder nohand" data-i18ninner="imgfirst"></label>
+							<select id="imgfirst" class="drgselect selright">
+								<option value="none" data-i18ninner="valuenone"></option>
+								<option value="alt">Alt</option>
+								<option value="ctrl">Ctrl</option>
+								<option value="shift">Shift</option>
+							</select>
+						</div>
+						<div class="flex topborder">
+							<label for="dholdkey" class="optline flexl notopborder nohand" data-i18ninner="dholdkey"></label>
+							<select id="dholdkey" class="drgselect selright">
+								<option value="none" data-i18ninner="valuenone">none</option>
+								<option value="alt">Alt</option>
+								<option value="ctrl">Ctrl</option>
+								<option value="shift">Shift</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="newadd"></div>
+				<div class="optcontent">
+					<form>
+						<input id="addtext" class="newadd" type="button" value="text" />
+						<input id="addlink" class="newadd" type="button" value="link" />
+						<input id="addimage" class="newadd" type="button" value="image" />
+					</form>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="edittext"></div>
+				<div class="optcontent" id="edittext">
+					<div id="tgledittext"></div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="editlink"></div>
+				<div class="optcontent" id="editlink">
+					<div id="tgleditlink"></div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="editimage"></div>
+				<div class="optcontent" id="editimage">
+					<div id="tgleditimage"></div>
+				</div>
+			</div>
+			<div style="clear:both;margin-top:64px;"></div>
+		</div>
+		<div class="tab" id="tabscroll">
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="smooth"></div>
+				<div class="optcontent">
+					<div class="flex">
+						<label for="smooth" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+						<form>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="smooth">
+							  <input type="checkbox" id="smooth" class="scrcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</form>
+					</div>
+					<div id="tglsmooth" class="hide">
+						<form>
+							<div class="optsubline flex notopborder">
+								<label for="scrollspeed" class="flexl" data-i18ninner="scrollspeed"></label>
+								<input id="scrollspeed" type="range" class="scrrange rangeright mdl-slider mdl-js-slider" min="1" max="10" step="1"><span id="scrollspeedhold" class="scrrangehold"></span>
+							</div>
+							<div class="optsubline flex">
+								<label for="scrollaccele" class="flexl" data-i18ninner="scrollaccele"></label>
+								<input id="scrollaccele" type="range" class="scrrange rangeright mdl-slider mdl-js-slider" min="0" max="10" step="1"><span id="scrollaccelehold" class="scrrangehold"></span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>	
+		</div>
 		<div class="tab" id="tabscrollgesture">
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="tablist"></div>
-                <div class="optcontent">
-                	<form>
-                    	<input id="tablist" class="sgscheck" type="checkbox" /><label for="tablist" data-i18ninner="enableui"></label><br />
-                        <label  data-i18ninner="howtablist"></label><br />
-                        	<input id="tablistkeyleft" class="sgsradio" type="radio" name="tablistkey" value="left" /><label for="tablistkeyleft" data-i18ninner="tablistkeyleft"></label><br />
-                            <input id="tablistkeyright" class="sgsradio"  type="radio" name="tablistkey" value="right" /><label for="tablistkeyright" data-i18ninner="tablistkeyright"></label>
-                    </form>
-                </div>
-            </div>	
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="editsgsleft"></div>
-                <div class="optcontent" id="editsgsleft">
-                	<form>
-                    	<input id="sgsleftenable" class="sgscheck" type="checkbox" /><label for="sgsleftenable" data-i18ninner="enableui"></label>
-                    </form>
-                    <div id="scrollsgsholdl"></div>
-                </div>
-            </div>
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="editsgsright"></div>
-                <div class="optcontent" id="editsgsright">
-                	<form>
-                    	<input id="sgsrightenable" class="sgscheck" type="checkbox" /><label for="sgsrightenable"  data-i18ninner="enableui"></label>
-                    </form>
-                    <div id="scrollsgsholdr"></div>
-                </div>
-            </div>	
-        </div>
-        <div class="tab" id="tabstrokegesture">
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="morestrges"></div>
-                <div class="optcontent" id="editstrgesture">
-                	<form>
-                    	<label for="strenable" data-i18ninner="strpress"></label>
-                        <select id="strpress" class="strselect" style="margin-left:12px; width:120px;">
-                        	<option value="up" data-i18ninner="strpressup"></option>
-                            <option value="down" data-i18ninner="strpressdown"></option>
-                        </select>
-                    </form>
-                    <div id="strokegesturehold"></div>
-                </div>
-            </div>	
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="strleft"></div>
-                <div class="optcontent" id="editstrleft">
-                	<form>
-                    	<input id="strleftenable" class="strcheck" type="checkbox" /><label for="strleftenable" data-i18ninner="enableui"></label><br />
-                    </form>
-                </div>
-            </div>	
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="strmiddle"></div>
-                <div class="optcontent" id="editstrmiddle">
-                	<form>
-                    	<input id="strmiddleenable" class="strcheck" type="checkbox" /><label for="strmiddleenable" data-i18ninner="enableui"></label><br />
-                    </form>
-                </div>
-            </div>	
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="strright"></div>
-                <div class="optcontent" id="editstrright">
-                	<form>
-                    	<input id="strrightenable" class="strcheck" type="checkbox" /><label for="strrightenable" data-i18ninner="enableui"></label><br />
-                    </form>
-                </div>
-            </div>	
-        </div>
-        <div class="tab" id="tabadvanced">
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="port"></div>
-                <div class="optcontent">
-                	<form>
-                    	<textarea id="portconfig" wrap="virtual"></textarea><br /><br />
-                        <input id="import" type="button" value="import" />
-                        <input id="export" type="button" value="export" />
-                    </form>
-                    <span  data-i18ninner="porttip" style="color:#F60; font-size:12px; line-height:14px;"></span>
-                </div>
-            </div>
-        	
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="reset"></div>
-            	<div class="optcontent">
-                	<form>
-                    	<input id="resetconfig" type="button" value="resetall" />
-                    </form>
-                    <span  data-i18ninner="resettip" style="color:#F60; font-size:12px; line-height:14px;"></span>
-                </div>
-            </div>
-            
-            <div class="opts">
-            	<div class="opttitle" data-i18ninner="sync"></div>
-            	<div class="optcontent">
-                	<div data-i18ninner="syncdes"></div>
-                	<form>
-                        <input id="clearsyncdata" type="button" value="clearsyncdata" />
-                    </form>
-                </div>
-            </div>
-            <div style="clear:both"></div>
-        </div>
-        <div class="tab" id="tabhelp">
-            <div class="opts">
-            	<div class="opttitle"></div>
-                <div class="optcontent"></div>
-            </div>
-        </div>
-        <div class="tab" id="tababout">
-            <div class="opts">
-            	<div class="opttitle"></div>
-                <div class="optcontent">
-                	<div>
-                    	<div style="float:left;width:60px;"><img src="icon.png" style="width:32px; height:32px"></div>
-                    	<div style="float:left;text-align:left;">
-                        	<span style="font-size:20px; color:#4E1485;">CLEAN CrxMouse</span><br />
-                            <span style="font-size:12px" data-i18ninner="description"></span>
-                        </div>
-                        <div style="clear:both;"></div>
-                    </div>
-                    <div><span data-i18ninner="version"></span> : <span id="version"></span></div>
-                    
-                    <div style="font-size:12px; color:#666; display:none">检查更新时出错：安装程序无法连接到互联网。</div>
-                </div>
-            </div>
-            <div class="opts" style=" display:none">
-            	<div class="opttitle" data-i18ninner="name"></div>
-                <div class="optcontent" data-i18ninner="extname"></div>
-            </div>
-            <div class="opts" style="display:none">
-            	<div class="opttitle" data-i18ninner="version"></div>
-            	<div class="optcontent" id="version"></div>
-            </div>
-            <div class="opts" style="display:none">
-            	<div class="opttitle" data-i18ninner="author"></div>
-                <div class="optcontent" data-i18ninner="extauthor"></div>
-            </div>
-            <div class="opts">                
-                <div class="opttitle" data-i18ninner="thanks"></div>
-            	<div class="optcontent" data-i18ninner="extthanks"></div>
-            </div>
-            <div class="opts" id="changelogzhcn">
-            	<div class="opttitle" data-i18ninner="changelog"></div>
-                <div class="optcontent">
-                    <details open>
-                        <summary>2017.03.12 - Ver 3.3.0 干净版</summary>
-                        <p class="summaryp">1.添加后台打开选项卡功能。参考BackgroundTab这款插件，由于该插件最近一次更新引用了外部不明js，所以弃用，并加入到本插件中。</p>
-                        <p class="summaryp">2.修复手势轨迹偏差问题，感谢Lutty Yang。</p>
-                    </details>
-                    <details>
-                        <summary>2016.01.01 - Ver 3.2.0 干净版</summary>
-                        <p class="summaryp">1.2016 Happy New Year!</p>
-                        <p class="summaryp">2.修复选取&拖拽的搜索&打开策略。</p>
-                    </details>
-                    <details>
-                        <summary>2015.12.12 - Ver 3.1.1 干净版</summary>
-                        <p class="summaryp">1.解决拖拽无法保存图片的bug。</p>
-                        <p class="summaryp">2.彻底抛弃jQuery，体积小了很多，优化内存使用。之前版本嵌两个jQuery，会占用一定的内存。</p>
-                    </details>
-                    <details>
-                        <summary>2015.11.06 - Ver 3.0.0 干净版</summary>
-                        <p class="summaryp">1.从网上了解到crxmouse被卖掉并被插入了监控记录所有打开网页的代码，很愤怒。现整理去掉所有恶意代码，去掉部分无用的代码，重新打包一份干净的版本，感谢最原始的作者，提供这么好的插件。希望我们在互联网上能尽可能争取到一些隐私。</p>
-                        <p class="summaryp">2.有需要增加的功能可以提，依据个人能力去实现，mail:tmdzhang@gmail.com，O(∩_∩)O</p>
-                    </details>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="tablist"></div>
+				<div class="optcontent">
+					<div class="flex">
+						<label for="tablist" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+						<form>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="tablist">
+							  <input type="checkbox" id="tablist" class="sgscheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</form>
+					</div>
+					<div id="tgltablist" class="hide">
+						<form>
+							<div class="flex optsubline notopborder">
+								<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="tablistkeyleft">
+									<input type="radio" id="tablistkeyleft" class="sgsradio mdl-radio__button" name="tablistkey" value="left">
+									<label for="tablistkeyleft" data-i18ninner="tablistkeyleft"></label>
+								</label>
+							</div>
+							<div class="flex flexs optsubline notopborder">
+								<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="tablistkeyright">
+									<input type="radio" id="tablistkeyright" class="sgsradio mdl-radio__button" name="tablistkey" value="right">
+									<label for="tablistkeyright" data-i18ninner="tablistkeyright"></label>
+								</label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>	
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="editsgsleft"></div>
+				<div class="optcontent" id="editsgsleft">
+					<div class="flex">
+						<label for="sgsleftenable" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+						<form>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="sgsleftenable">
+							  <input type="checkbox" id="sgsleftenable" class="sgscheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</form>
+					</div>
+					<div id="tglsgsleftenable" class="hide"><div id="tgleditsgsleft"></div></div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="editsgsright"></div>
+				<div class="optcontent" id="editsgsright">
+					<div class="flex">
+						<label for="sgsrightenable" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+						<form>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="sgsrightenable">
+							  <input type="checkbox" id="sgsrightenable" class="sgscheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</form>
+					</div>
+					<div id="tglsgsrightenable" class="hide"><div id="tgleditsgsright"></div></div>
+				</div>
+			</div>	
+		</div>
+		<div class="tab" id="tabstrokegesture">
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="morestrges"></div>
+				<div class="optcontent" id="editstrgesture">
+					<div class="flex">
+						<label class="optline flexl notopborder nohand" data-i18ninner="strpress"></label>
+							<select id="strpress" class="strselect selright md-select">
+								<option value="up" data-i18ninner="strpressup"></option>
+								<option value="down" data-i18ninner="strpressdown"></option>
+							</select>
+						</form>
+					</div>
+				</div>
+			</div>	
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="strleft"></div>
+				<div class="optcontent single" id="editstrleft">
+					<div class="flex">
+						<label for="strleftenable" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+						<form>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="strleftenable">
+							  <input type="checkbox" id="strleftenable" class="strcheck mdl-switch__input">
+							  <span class="mdl-switch__label"></span>
+							</label>
+						</form>
+					</div>
+					<div id="tglstrleftenable" class="hide"><div id="tgleditstrleft"></div></div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="strmiddle"></div>
+				<div class="optcontent single" id="editstrmiddle">
+					<div class="flex">
+						<label for="strmiddleenable" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+						<form>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="strmiddleenable">
+								<input type="checkbox" id="strmiddleenable" class="strcheck mdl-switch__input">
+								<span class="mdl-switch__label"></span>
+							</label>
+						</form>
+					</div>
+					<div id="tglstrmiddleenable" class="hide"><div id="tgleditstrmiddle"></div></div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="strright"></div>
+				<div class="optcontent single" id="editstrright">
+					<div class="flex">
+						<label for="strrightenable" class="optline flexl notopborder" data-i18ninner="enableui"></label>
+						<form>
+							<label class="tgl-right mdl-switch mdl-js-switch mdl-js-ripple-effect" for="strrightenable">
+								<input type="checkbox" id="strrightenable" class="strcheck mdl-switch__input">
+								<span class="mdl-switch__label"></span>
+							</label>
+						</form>
+					</div>
+					<div id="tglstrrightenable" class="hide"><div id="tgleditstrright"></div></div>
+				</div>
+			</div>	
+		</div>
+		<div class="tab" id="tabadvanced">
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="port"></div>
+				<div class="optcontent">
+					<div class="optline notopborder">
+						<form>
+							<div class="flex">
+								<textarea id="portconfig" wrap="virtual"></textarea>
+							</div>
+							<div class="flex notoppadding">
+								<span class="flexl" data-i18ninner="porttip"></span>
+								<input id="import" type="button" value="import" />
+								<input id="export" style="margin-left:10px" type="button" value="export" />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="reset"></div>
+				<div class="optcontent">
+					<div class="optline flex">
+						<span class="flexl" data-i18ninner="resettip"></span>
+						<form>
+							<input id="resetconfig" type="button" value="resetall" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="sync"></div>
+				<div class="optcontent">
+					<div class="optline flex">
+						<span class="flexl" data-i18ninner="syncdes"></span>
+						<form>
+							<input id="clearsyncdata" type="button" value="clearsyncdata" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="tab" id="tabhelp">
+			<div class="opts">
+				<div class="opttitle"></div>
+				<div class="optcontent"></div>
+			</div>
+		</div>
+		<div class="tab" id="tababout">
+			<div class="opts">
+				<div class="opttitle" data-i18ninner="aboutname"></div>
+				<div class="optcontent">
+					<div id="about">
+						<div id="logo"><img src="icon.png"></div>
+						<div>
+							<span data-i18ninner="extnamejson"></span><br />
+							<span class="subtitle" data-i18ninner="description"></span>
+						</div>
+					</div>
+					<div class="optline flex">
+						<label data-i18ninner="version"></label>&nbsp;<span id="version"></span>
+					</div>
+					<div style="font-size:12px; color:#666; display:none">检查更新时出错：安装程序无法连接到互联网。</div>
+				</div>
+			</div>
+			<div class="opts" style=" display:none">
+				<div class="opttitle" data-i18ninner="name"></div>
+				<div class="optcontent" data-i18ninner="extname"></div>
+			</div>
+			<div class="opts" style="display:none">
+				<div class="opttitle" data-i18ninner="version"></div>
+				<div class="optcontent" id="version"></div>
+			</div>
+			<div class="opts" style="display:none">
+				<div class="opttitle" data-i18ninner="author"></div>
+				<div class="optcontent" data-i18ninner="extauthor"></div>
+			</div>
+			<div class="opts" style="margin-top:45px">
+				<div class="optcontent">
+					<div class="optline">
+						<label class="flex nohand" data-i18ninner="thanks"></label>
+					</div>
+					<div class="optsubline notopborder">
+						<label class="flex nohand" data-i18ninner="extthanks"></label>
+					</div>
+				</div>
+			</div>
+			<div class="opts" id="changelogzhcn">
+				<div class="opttitle" data-i18ninner="changelog"></div>
+				<div class="optcontent">
+					<details open>
+						<summary>2017.03.12 - Ver 3.3.0 干净版</summary>
+						<p class="summaryp">1.添加后台打开选项卡功能。参考BackgroundTab这款插件，由于该插件最近一次更新引用了外部不明js，所以弃用，并加入到本插件中。</p>
+						<p class="summaryp">2.修复手势轨迹偏差问题，感谢Lutty Yang。</p>
+					</details>
 					<details>
-                        <summary>2013.03.20 - 暂停CrxMouse开发</summary>
-                        <details>
-                            <p class="summaryp">1.只是暂停添加新功能,不影响现在的扩展使用,我会尽量修复bug.可能交给其他人维护(我是说可能)!</p>
-                            <p class="summaryp">2.计划中还有很多功能,之前也答应过很多功能,带着遗憾,说声抱歉,有机会再战吧...</p>
-                        </details> 
-                    	<summary>更多日志</summary>
-                        <details>
-                            <summary>2013.03.19 - Ver 2.5.319.1379</summary>
-                            <p class="summaryp">1.新增,添加书签.</p>
-                        </details> 
-                        <details>
-                            <summary>2013.03.18 - Ver 2.5.318.1376</summary>
-                            <p class="summaryp">1.优化按住alt/shift/ctrl键的操作.</p>
-                            <p class="summaryp">2.针对关闭标签页操作,增加三个自定义选项:关闭后选中哪个标签页/是否关闭窗口/不关闭窗口时打开的网页.</p>
-                            <p class="summaryp">3.优化导入操作.</p>
-                            <p class="summaryp">4.将所有操作分类,以便于设置.</p>
-                            <p class="summaryp">5.修复自定义脚本操作中,带注释符脚本出错问题.</p>
-                        </details> 
-                        <details>
-                            <summary>2013.03.12 - Ver 2.5.312.1367</summary>
-                            <p class="summaryp">1.新增同步配置功能.</p>
-                        </details>
-                        <details>
-                            <summary>2013.03.12 - Ver 2.5.312.1358</summary>
-                            <p class="summaryp">1.优化上一页/下一页操作,修复某些关键词检查失败的问题.</p>
-                            <p class="summaryp">2.新增按自定义格式复制标题和链接,并对拖曳链接,添加上述操作.</p>
-                            <p class="summaryp">3.针对有新建标签页的操作,增加在隐身窗口中打开的选项.</p>
-                        </details>
-                        <details>
-                            <summary>2013.03.07 - Ver 2.5.307.1356</summary>
-                            <p class="summaryp">1.优化后台设置,自定义性更强:可以单独设置前后台,新标签位置,是否固定等.</p>
-                            <p class="summaryp">2.此次升级对配置文件的改动较大,已对原配置文件做了升级,因为工作量大,难免有疏忽的地方,如果配置文件有问题,请到设置页面重新配置,或者重置配置,造成不便,请谅解!</p>
-                            <p class="summaryp">3.新增:转到上一章/下一章,打开剪贴板中的网址,停止所有标签页载入.</p>
-                            <p class="summaryp">4.BUG修复:首次安装后,已经打开的页面本需要刷新后才起效;按住Ctrl/Alt/Shift禁用超级拖曳无效.</p>
-                        </details>
-                        <details>
-                            <summary>2013.02.19 - Ver 2.4.219.1347</summary>
-                            <p class="summaryp">1.扩展更名为CrxMouse.</p>
-                            <p class="summaryp">2.集中解决Linux/Mac平台上的众多问题(测试环境:Ubuntu 1210),新增:双击弹出右键菜单(默认开启).</p>
-                            <p class="summaryp">3.提升画线的平滑度,同时增加 手势起效的最小长度 选项.</p>
-                            <p class="summaryp">4.优化 全屏 ,现在可以记住操作前的窗口状态.</p>
-                            <p class="summaryp">5.修复某些时候,某些操作对象错误的问题(如关闭当前标签时,被关闭的标签不是当前标签).</p>
-                            <p class="summaryp">6.修复截图中留有画线轨迹问题,同时新增设置图片格式/质量的选项.</p>
-                            <p class="summaryp">7.修复:自定义脚本无效等.</p>
-                        </details>
-                        <details>
-                            <summary>2013.01.24 - Ver 2.4.124.1301</summary>
-                            <p class="summaryp">1.BUG修复:某些情况下右键菜单导致选择文本被取消/点击滚动条后误触发手势/某些情况下,修改设置后不能保存.</p>
-                            <p class="summaryp">2.新增:滚轮手势/摇杆手势/标签页列表(注:如果你不明白这些功能,建议不要开启,以免出现一些诡异的现象).</p>
-                        </details>
-                        <details>
-                            <summary>2013.01.13 - Ver 2.3.113.1301</summary>
-                            <p class="summaryp">1.针对Linux/Mac不能正常使用鼠标手势,新增按键选择:鼠标右键/中键/左键,不建议Windows用户修改此项!</p>
-                            <p class="summaryp">2.鼠标手势/超级拖曳,可以分别选择按住Alt/Ctrl/shift临时禁用.</p>
-                            <p class="summaryp">3.针对带图片的链接,新增:优先识别为图片,按住Alt/Ctrl/shift时优先识别为图片俩个选项.</p>
-                            <p class="summaryp">4.多个地方涉及到Alt/Ctrl/shift,建议分别设置不同键,以免出现混淆,导致失效,不使用,请选择 无 .</p>
-                            <p class="summaryp">5.一些细节优化.</p>
-                        </details>
-                        <details>
-                            <summary>2013.01.08 - Ver 2.3.108.1301</summary>
-                            <p class="summaryp">1.新增拖曳图片时:保存/另存(仅支持Chrome dev版),以图搜图.</p>
-                            <p class="summaryp">2.优化设置页面:可视化外观设置,增加重置当前页配置按钮.</p>
-                            <p class="summaryp">3.内置常见默认搜索:百度/bing/淘宝等.</p>
-                        </details>
-                        <details>
-                            <summary>2012.12.29 - Ver 2.2.1212.2901</summary>
-                            <p class="summaryp">1.鼠标手势中新增 运行自定义 脚本功能(可能有bug).</p>
-                            <p class="summaryp">2.拖动文字可以识别为网址时,可以使用超级拖曳-链接(网址正则匹配不怎么理想...)</p>
-    
-                            <p class="summaryp">3.一些bug修复.</p>
-                            <p class="summaryp">4.从这个版本开始,Chrome的最低版本要求为22,低于此版本的,请先升级chrome浏览器.</p>
-                        </details>
-                        <details>
-                            <summary>2012.12.26 - Ver 2.1.1212.2601</summary>
-                            <p class="summaryp">1.修复超级拖曳影响直接拖动上传的bug.</p>
-                            <p class="summaryp">2.针对超级拖曳中的文字/链接/图片,分别设置了开关.</p>
-                            <p class="summaryp">3.针对文本框中的文字是否执行超级拖曳做了个选项.</p>
-                        </details>
-                        <details>
-                            <summary>2012.12.24 - Ver 2.1.1212.2401</summary>
-                            <p class="summaryp">1.更换画线方式,大幅提升流畅度.</p>
-                            <p class="summaryp">2.优化/细化配置.</p>
-                            <p class="summaryp">3.诸多BUG修复.</p>
-                            <p class="summaryp">4.更新了配置文件,部分选项可能会被恢复为默认.</p>
-                        </details>
-                        <details>
-                            <summary>2012.12.15 - Ver 2.1.1212.1501</summary>
-                            <p class="summaryp">1.新增 在当前页禁用本扩展 .</p>
-                            <p class="summaryp">2.新增 鼠标滚轮》平滑滚动 .</p>
-                            <p class="summaryp">3.新增 超时取消操作,自定义新建标签页位置.</p>
-                            <p class="summaryp">4.设置细化:鼠标手势/超级拖曳的外观设置区分开来,可以单独禁用,或者分别设置大小/颜色等.</p>
-                        </details>
-                        <details>
-                            <summary>2012.12.07 - Ver 2.0.1212.701</summary>
-                            <p class="summaryp">1.新增 刷新框架 .</p>
-                            <p class="summaryp">2.增加对Linux/Mac OS的支持,使用鼠标中键替换右键操作.</p>
-                            <p class="summaryp">3.BUG修复：右键菜单消失,到底部/顶部部分页面错误.</p>
-                        </details>
-                        <details>
-                            <summary>2012.11.25 - Ver 2.0.1211.2501</summary>
-                            <p class="summaryp">1.代码全部重写,以后独立维护.</p>
-                            <p class="summaryp">2.新增部分操作:全屏,固定,查看源码,截图,新建隐身窗口,最小化/最大化窗口,打开书签/历史/扩展/设置等.</p>
-                            <p class="summaryp">3.增加更多自定义设置:轨迹/方向提示/操作提示独立开关，及自定义颜色/大小/透明度等.</p>
-                        </details>
-                    </details>
-                </div>
-            </div>
-            
-            <br /><br /><br />
-            <div style="clear:both"></div>
-        </div>
-        <div style="clear:both"></div>
-    </div>
-
-<script src="js/xx.js"></script>
-<script src="js/options.js"></script>
-<script src="js/event.js"></script>
-<script src="model/jscolor/jscolor.js"></script>
-<script src="js/optline.js"></script>
+						<summary>2016.01.01 - Ver 3.2.0 干净版</summary>
+						<p class="summaryp">1.2016 Happy New Year!</p>
+						<p class="summaryp">2.修复选取&拖拽的搜索&打开策略。</p>
+					</details>
+					<details>
+						<summary>2015.12.12 - Ver 3.1.1 干净版</summary>
+						<p class="summaryp">1.解决拖拽无法保存图片的bug。</p>
+						<p class="summaryp">2.彻底抛弃jQuery，体积小了很多，优化内存使用。之前版本嵌两个jQuery，会占用一定的内存。</p>
+					</details>
+					<details>
+						<summary>2015.11.06 - Ver 3.0.0 干净版</summary>
+						<p class="summaryp">1.从网上了解到crxmouse被卖掉并被插入了监控记录所有打开网页的代码，很愤怒。现整理去掉所有恶意代码，去掉部分无用的代码，重新打包一份干净的版本，感谢最原始的作者，提供这么好的插件。希望我们在互联网上能尽可能争取到一些隐私。</p>
+						<p class="summaryp">2.有需要增加的功能可以提，依据个人能力去实现，mail:tmdzhang@gmail.com，O(∩_∩)O</p>
+					</details>
+					<details>
+						<summary>2013.03.20 - 暂停CrxMouse开发</summary>
+						<details>
+							<p class="summaryp">1.只是暂停添加新功能,不影响现在的扩展使用,我会尽量修复bug.可能交给其他人维护(我是说可能)!</p>
+							<p class="summaryp">2.计划中还有很多功能,之前也答应过很多功能,带着遗憾,说声抱歉,有机会再战吧...</p>
+						</details> 
+						<summary>更多日志</summary>
+						<details>
+							<summary>2013.03.19 - Ver 2.5.319.1379</summary>
+							<p class="summaryp">1.新增,添加书签.</p>
+						</details> 
+						<details>
+							<summary>2013.03.18 - Ver 2.5.318.1376</summary>
+							<p class="summaryp">1.优化按住alt/shift/ctrl键的操作.</p>
+							<p class="summaryp">2.针对关闭标签页操作,增加三个自定义选项:关闭后选中哪个标签页/是否关闭窗口/不关闭窗口时打开的网页.</p>
+							<p class="summaryp">3.优化导入操作.</p>
+							<p class="summaryp">4.将所有操作分类,以便于设置.</p>
+							<p class="summaryp">5.修复自定义脚本操作中,带注释符脚本出错问题.</p>
+						</details> 
+						<details>
+							<summary>2013.03.12 - Ver 2.5.312.1367</summary>
+							<p class="summaryp">1.新增同步配置功能.</p>
+						</details>
+						<details>
+							<summary>2013.03.12 - Ver 2.5.312.1358</summary>
+							<p class="summaryp">1.优化上一页/下一页操作,修复某些关键词检查失败的问题.</p>
+							<p class="summaryp">2.新增按自定义格式复制标题和链接,并对拖曳链接,添加上述操作.</p>
+							<p class="summaryp">3.针对有新建标签页的操作,增加在隐身窗口中打开的选项.</p>
+						</details>
+						<details>
+							<summary>2013.03.07 - Ver 2.5.307.1356</summary>
+							<p class="summaryp">1.优化后台设置,自定义性更强:可以单独设置前后台,新标签位置,是否固定等.</p>
+							<p class="summaryp">2.此次升级对配置文件的改动较大,已对原配置文件做了升级,因为工作量大,难免有疏忽的地方,如果配置文件有问题,请到设置页面重新配置,或者重置配置,造成不便,请谅解!</p>
+							<p class="summaryp">3.新增:转到上一章/下一章,打开剪贴板中的网址,停止所有标签页载入.</p>
+							<p class="summaryp">4.BUG修复:首次安装后,已经打开的页面本需要刷新后才起效;按住Ctrl/Alt/Shift禁用超级拖曳无效.</p>
+						</details>
+						<details>
+							<summary>2013.02.19 - Ver 2.4.219.1347</summary>
+							<p class="summaryp">1.扩展更名为CrxMouse.</p>
+							<p class="summaryp">2.集中解决Linux/Mac平台上的众多问题(测试环境:Ubuntu 1210),新增:双击弹出右键菜单(默认开启).</p>
+							<p class="summaryp">3.提升画线的平滑度,同时增加 手势起效的最小长度 选项.</p>
+							<p class="summaryp">4.优化 全屏 ,现在可以记住操作前的窗口状态.</p>
+							<p class="summaryp">5.修复某些时候,某些操作对象错误的问题(如关闭当前标签时,被关闭的标签不是当前标签).</p>
+							<p class="summaryp">6.修复截图中留有画线轨迹问题,同时新增设置图片格式/质量的选项.</p>
+							<p class="summaryp">7.修复:自定义脚本无效等.</p>
+						</details>
+						<details>
+							<summary>2013.01.24 - Ver 2.4.124.1301</summary>
+							<p class="summaryp">1.BUG修复:某些情况下右键菜单导致选择文本被取消/点击滚动条后误触发手势/某些情况下,修改设置后不能保存.</p>
+							<p class="summaryp">2.新增:滚轮手势/摇杆手势/标签页列表(注:如果你不明白这些功能,建议不要开启,以免出现一些诡异的现象).</p>
+						</details>
+						<details>
+							<summary>2013.01.13 - Ver 2.3.113.1301</summary>
+							<p class="summaryp">1.针对Linux/Mac不能正常使用鼠标手势,新增按键选择:鼠标右键/中键/左键,不建议Windows用户修改此项!</p>
+							<p class="summaryp">2.鼠标手势/超级拖曳,可以分别选择按住Alt/Ctrl/shift临时禁用.</p>
+							<p class="summaryp">3.针对带图片的链接,新增:优先识别为图片,按住Alt/Ctrl/shift时优先识别为图片俩个选项.</p>
+							<p class="summaryp">4.多个地方涉及到Alt/Ctrl/shift,建议分别设置不同键,以免出现混淆,导致失效,不使用,请选择 无 .</p>
+							<p class="summaryp">5.一些细节优化.</p>
+						</details>
+						<details>
+							<summary>2013.01.08 - Ver 2.3.108.1301</summary>
+							<p class="summaryp">1.新增拖曳图片时:保存/另存(仅支持Chrome dev版),以图搜图.</p>
+							<p class="summaryp">2.优化设置页面:可视化外观设置,增加重置当前页配置按钮.</p>
+							<p class="summaryp">3.内置常见默认搜索:百度/bing/淘宝等.</p>
+						</details>
+						<details>
+							<summary>2012.12.29 - Ver 2.2.1212.2901</summary>
+							<p class="summaryp">1.鼠标手势中新增 运行自定义 脚本功能(可能有bug).</p>
+							<p class="summaryp">2.拖动文字可以识别为网址时,可以使用超级拖曳-链接(网址正则匹配不怎么理想...)</p>
+							<p class="summaryp">3.一些bug修复.</p>
+							<p class="summaryp">4.从这个版本开始,Chrome的最低版本要求为22,低于此版本的,请先升级chrome浏览器.</p>
+						</details>
+						<details>
+							<summary>2012.12.26 - Ver 2.1.1212.2601</summary>
+							<p class="summaryp">1.修复超级拖曳影响直接拖动上传的bug.</p>
+							<p class="summaryp">2.针对超级拖曳中的文字/链接/图片,分别设置了开关.</p>
+							<p class="summaryp">3.针对文本框中的文字是否执行超级拖曳做了个选项.</p>
+						</details>
+						<details>
+							<summary>2012.12.24 - Ver 2.1.1212.2401</summary>
+							<p class="summaryp">1.更换画线方式,大幅提升流畅度.</p>
+							<p class="summaryp">2.优化/细化配置.</p>
+							<p class="summaryp">3.诸多BUG修复.</p>
+							<p class="summaryp">4.更新了配置文件,部分选项可能会被恢复为默认.</p>
+						</details>
+						<details>
+							<summary>2012.12.15 - Ver 2.1.1212.1501</summary>
+							<p class="summaryp">1.新增 在当前页禁用本扩展 .</p>
+							<p class="summaryp">2.新增 鼠标滚轮》平滑滚动 .</p>
+							<p class="summaryp">3.新增 超时取消操作,自定义新建标签页位置.</p>
+							<p class="summaryp">4.设置细化:鼠标手势/超级拖曳的外观设置区分开来,可以单独禁用,或者分别设置大小/颜色等.</p>
+						</details>
+						<details>
+							<summary>2012.12.07 - Ver 2.0.1212.701</summary>
+							<p class="summaryp">1.新增 刷新框架 .</p>
+							<p class="summaryp">2.增加对Linux/Mac OS的支持,使用鼠标中键替换右键操作.</p>
+							<p class="summaryp">3.BUG修复：右键菜单消失,到底部/顶部部分页面错误.</p>
+						</details>
+						<details>
+							<summary>2012.11.25 - Ver 2.0.1211.2501</summary>
+							<p class="summaryp">1.代码全部重写,以后独立维护.</p>
+							<p class="summaryp">2.新增部分操作:全屏,固定,查看源码,截图,新建隐身窗口,最小化/最大化窗口,打开书签/历史/扩展/设置等.</p>
+							<p class="summaryp">3.增加更多自定义设置:轨迹/方向提示/操作提示独立开关，及自定义颜色/大小/透明度等.</p>
+						</details>
+					</details>
+				</div>
+			</div>
+			<br /><br /><br />
+			<div style="clear:both"></div>
+		</div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+	<script src="js/xx.js"></script>
+	<script src="js/material.min.js"></script>
+	<script src="js/options.js"></script>
+	<script src="js/event.js"></script>
+	<script src="js/optline.js"></script>
 </body>
 </html>

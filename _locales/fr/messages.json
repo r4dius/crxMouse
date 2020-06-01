@@ -443,9 +443,6 @@
    "help": {
       "message": "Aide"
    },
-   "howtablist": {
-      "message": "Comment utiliser la liste des onglets : "
-   },
    "image": {
       "message": "Image"
    },
@@ -474,10 +471,10 @@
       "message": "Options pour Linux/Mac"
    },
    "listaction": {
-      "message": "Action : "
+      "message": "Action"
    },
    "listgesture": {
-      "message": "Raccourcis souris : "
+      "message": "Raccourcis souris"
    },
    "local": {
       "message": "fr"

@@ -48,7 +48,7 @@
       "message": "Copy URL of current tab"
    },
    "G_copyuser": {
-      "message": "copy the title and URL with custom format"
+      "message": "Copy the title and URL with custom format"
    },
    "G_crxsettings": {
       "message": "CrxMouse settings"
@@ -168,7 +168,7 @@
       "message": "Save image"
    },
    "I_saveback": {
-      "message": "Save image as(Dev Only)..."
+      "message": "Save image as (Dev Only)..."
    },
    "I_search": {
       "message": "Search the Image"
@@ -252,7 +252,7 @@
       "message": "Cancel"
    },
    "cancelcontextmenu": {
-      "message": "Fix Linux/Mac context menu problems(\u003Cspan style='color:red'>double click right mouse button to pop-up context menu\u003C/span>)."
+      "message": "Fix Linux/Mac context menu problems (\u003Cspan style='color:red'>double click right mouse button to pop-up context menu\u003C/span>)."
    },
    "cancelcontextmenudes": {
       "message": "The option to fix on non-Windows platforms, the right-click menu affect the normal use of certain functions, strongly recommend Linux / Mac users check this."
@@ -384,7 +384,7 @@
       "message": "\r\n\t\t> os0x\u003C/a>\u003C/a>\u003Cbr />\r\n\t\t> ArcCosine\u003C/a>\u003C/a>\u003Cbr />\r\n\t\t> Jan Odvarko\u003C/a>\u003C/a>\u003Cbr />\r\n\t\t> Thanks to those who enjoy this extension and/or send me feedbacks to improve this extension"
    },
    "fastreset": {
-      "message": "something is wrong,the extension can't work, click here to reset to default configuration!if it still cant work,please update chrome to the latest version (V23+),and retry."
+      "message": "Something is wrong,the extension can't work, click here to reset to default configuration! If it still cant work,please update chrome to the latest version (V23+),and retry."
    },
    "feedback": {
       "message": "Feedback"
@@ -417,7 +417,7 @@
       "message": "Which key for Mouse Gestures:"
    },
    "geskeydes": {
-      "message": "Note:1,Its just a alternative for Linux/Mac users who can't use right button; windows users are not recommended to change this;\u003Cbr />2,Many problems occurred,eg:can't select text or use Super Drag-text or Mouse Gestures on images and links.Then ,you may need the setting below."
+      "message": "Note: 1. Its just a alternative for Linux/Mac users who can't use right button; windows users are not recommended to change this.\u003Cbr />2. Many problems occurred, eg: can't select text or use Super Drag-text or Mouse Gestures on images and links.Then ,you may need the setting below."
    },
    "geskeyleft": {
       "message": "Left mouse button"
@@ -442,9 +442,6 @@
    },
    "help": {
       "message": "Help"
-   },
-   "howtablist": {
-      "message": "How to use Tab list:"
    },
    "image": {
       "message": "Image"
@@ -474,10 +471,10 @@
       "message": "Linux/Mac options"
    },
    "listaction": {
-      "message": "Action:"
+      "message": "Action"
    },
    "listgesture": {
-      "message": "Gesture:"
+      "message": "Gesture"
    },
    "local": {
       "message": "en"
@@ -486,7 +483,31 @@
       "message": "false"
    },
    "minilength": {
-      "message": "Minimum length of track (px):"
+      "message": "Minimum length:"
+   },
+   "labmoreTarget": {
+      "message": "Target"
+   },
+   "labmoreTsearch": {
+      "message": "Tsearch"
+   },
+   "labmoreIsearch": {
+      "message": "Isearch"
+   },
+   "labmoreChromepage": {
+      "message": "Chromepage"
+   },
+   "labmorePosition": {
+      "message": "Position"
+   },
+   "labmorePinned": {
+      "message": "Pinned"
+   },
+   "labmoreCapturetype": {
+      "message": "Capturetype"
+   },
+   "labmoreCloseopts": {
+      "message": "Closeopts"
    },
    "moreCapturetypetitle": {
       "message": "Image type"
@@ -498,7 +519,7 @@
       "message": "Close the Window after the last tab is closed?"
    },
    "moreCloseseltitle": {
-      "message": "which tab to select after closing the current tab?"
+      "message": "Which tab to select after closing the current tab?"
    },
    "moreCloseurltitle": {
       "message": "URL, if you do not close the Chrome window, then open this URL"
@@ -651,7 +672,7 @@
       "message": "Import/Export configuration"
    },
    "porttip": {
-      "message": "Note: 1. importing configuration results in a restart of this extension, the opened tabs need to be reloaded to apply this extension! \u003Cbr /> 2.You may only import configuration that is exported from here,It's not recommended to edit it by yourself. \u003Cbr /> 3.In case of an error, please reset to the default configuration. "
+      "message": "Note: 1. Importing configuration results in a restart of this extension, the opened tabs need to be reloaded to apply this extension! \u003Cbr />2. You may only import configuration that is exported from here,It's not recommended to edit it by yourself. \u003Cbr />3. In case of an error, please reset to the default configuration."
    },
    "poschrome": {
       "message": "Chrome Default"
@@ -714,22 +735,22 @@
       "message": "Scrolling"
    },
    "scrollaccele": {
-      "message": "Scroll acceleration"
+      "message": "Acceleration:"
    },
    "scrolleffects": {
-      "message": "With Effects( for page up/down/top/bottom)."
+      "message": "Smooth scrolling"
    },
    "scrollgesture": {
       "message": "Wheel Gestures"
    },
    "scrollspeed": {
-      "message": "Scroll speed"
+      "message": "Speed:"
    },
    "searchdes": {
       "message": "Use %name to search:\"%s\""
    },
    "setdragurl": {
-      "message": "Enable Drag-Link if the string is recognized as a link(experimental)."
+      "message": "Enable Drag-Link if the string is recognized as a link (experimental)."
    },
    "settings": {
       "message": "Settings"
@@ -753,7 +774,7 @@
       "message": "CrxMouse is nice? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>Leave a 5 star rating!\u003C/a>"
    },
    "stenable": {
-      "message": "Enable select text while holding the left mouse(It makes Mouse Gestures invalid sometimes)"
+      "message": "Enable select text while holding the left mouse (it makes Mouse Gestures invalid sometimes)"
    },
    "stineyeimage": {
       "message": "TinEye"
@@ -828,7 +849,7 @@
       "message": "Thanks"
    },
    "time": {
-      "message": "Duration"
+      "message": "Duration:"
    },
    "timeout": {
       "message": "Timeout"
@@ -865,6 +886,12 @@
    },
    "unclose": {
       "message": "Do not close, and open the following URL"
+   },
+   "yes": {
+      "message": "Yes"
+   },
+   "no": {
+      "message": "No"
    },
    "unpinned": {
       "message": "Unpin"

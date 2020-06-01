@@ -3,7 +3,7 @@
       "message": "Back"
    },
    "G_bookmark": {
-      "message": "Add Bookmark"
+      "message": "Add bookmark"
    },
    "G_bookmarks": {
       "message": "Bookmark manager"
@@ -48,10 +48,10 @@
       "message": "Copy URL of current tab"
    },
    "G_copyuser": {
-      "message": "copy the title and URL with custom format"
+      "message": "Copy the title and URL with custom format"
    },
    "G_crxsettings": {
-      "message": "CrxMouse settings"
+      "message": "crxMouse settings"
    },
    "G_down": {
       "message": "Scroll down"
@@ -84,7 +84,7 @@
       "message": "Left tab"
    },
    "G_movetowindow": {
-      "message": "Detach Tab"
+      "message": "Detach tab"
    },
    "G_newtab": {
       "message": "New tab"
@@ -117,7 +117,7 @@
       "message": "Reload without cache"
    },
    "G_reloadframe": {
-      "message": "Reload Frame"
+      "message": "Reload frame"
    },
    "G_righttab": {
       "message": "Right tab"
@@ -168,16 +168,16 @@
       "message": "Save image"
    },
    "I_saveback": {
-      "message": "Save image as(Dev Only)..."
+      "message": "Save image as (dev only)..."
    },
    "I_search": {
-      "message": "Search the Image"
+      "message": "Search the image"
    },
    "I_searchuser": {
-      "message": "Search the Image with Custom Search Engine"
+      "message": "Search the image with custom search engine"
    },
    "L_bookmark": {
-      "message": "Add Bookmark"
+      "message": "Add bookmark"
    },
    "L_copyaslink": {
       "message": "copy the text and URL as a link"
@@ -198,19 +198,22 @@
       "message": "Copy text"
    },
    "T_search": {
-      "message": "Search the Text"
+      "message": "Search the text"
    },
    "T_searchuser": {
-      "message": "Custom Search..."
+      "message": "Custom search..."
    },
    "about": {
       "message": "About"
+   },
+   "aboutname": {
+      "message": "About crxMouse"
    },
    "addtipgesture": {
       "message": "Hold down right mouse button, move to draw the track, release the right button and select the action."
    },
    "addtipimage": {
-      "message": "Use left mouse button to Drag the image below and draw the track, then release the mouse to select the action."
+      "message": "Use left mouse button to drag the image below and draw the track, then release the mouse to select the action."
    },
    "addtiplink": {
       "message": "Select the link below and draw the track while holding left mouse button, then release the mouse and select the action."
@@ -219,7 +222,7 @@
       "message": "Select the following text and draw the track while holding left mouse button, then release the mouse and select the action."
    },
    "advanced": {
-      "message": "Advanced Settings"
+      "message": "Advanced settings"
    },
    "alertaction": {
       "message": "Please select an action."
@@ -228,19 +231,25 @@
       "message": "Imported configuration error."
    },
    "alertname": {
-      "message": "Maybe,Somewhere is empty,you need to fill it!"
+      "message": "Maybe, somewhere is empty, you need to fill it!"
    },
    "alertrepeat": {
-      "message": "The Gesture was duplicated, try another one."
+      "message": "The gesture was duplicated, try another one."
    },
    "alerttooltip": {
       "message": "Please enter a name for the action."
    },
    "alerturl": {
-      "message": "No URL or Invalid URL."
+      "message": "No URL or invalid URL."
    },
    "author": {
       "message": "Author"
+   },
+   "blackList": {
+      "message": "Site Blacklist"
+   },
+   "blacklistTip": {
+      "message": "crxMouse won't run on these sites. One domain per line, do not add http:// or https://"
    },
    "bookmarkfailnotifi": {
       "message": "The bookmark already exists!"
@@ -252,16 +261,16 @@
       "message": "Cancel"
    },
    "cancelcontextmenu": {
-      "message": "Fix Linux/Mac context menu problems(\u003Cspan style='color:red'>double click right mouse button to pop-up context menu\u003C/span>)."
+      "message": "Fix Linux / Mac context menu problems (\u003Cspan style='color:red'>double click right mouse button to pop-up context menu\u003C/span>)"
    },
    "cancelcontextmenudes": {
       "message": "The option to fix on non-Windows platforms, the right-click menu affect the normal use of certain functions, strongly recommend Linux / Mac users check this."
    },
    "changelog": {
-      "message": "Change Log"
+      "message": "Change log"
    },
    "chrome": {
-      "message": "Chrome Default"
+      "message": "Chrome default"
    },
    "clearsyncdata": {
       "message": "Clear synced data"
@@ -270,10 +279,10 @@
       "message": "Close"
    },
    "color": {
-      "message": "Color:"
+      "message": "Color"
    },
    "crbookmarks": {
-      "message": "Bookmarks Manager"
+      "message": "Bookmarks manager"
    },
    "crdownloads": {
       "message": "Downloads"
@@ -282,34 +291,34 @@
       "message": "Extensions"
    },
    "crflags": {
-      "message": "Chrome Labs"
+      "message": "Chrome labs"
    },
    "crhistory": {
       "message": "History"
    },
    "crsettings": {
-      "message": "Chrome Settings"
+      "message": "Chrome settings"
    },
    "curfront": {
       "message": "Current tab"
    },
    "dbclicktime": {
-      "message": "Maximum duration of Double-click (ms):"
+      "message": "Maximum duration of double-click (in ms)"
    },
    "delete": {
       "message": "Delete"
    },
    "description": {
-      "message": "CLEAN Version! Boost browsing productivity with your fingertips"
+      "message": "CLEAN version! Boost browsing productivity with your fingertips"
    },
    "descriptionjson": {
-      "message": "CLEAN Version! Boost browsing productivity with your fingertips - Mouse Gestures, Super Drag, Wheel Gestures, Rocker Gestures."
+      "message": "CLEAN version! Boost browsing productivity with your fingertips - mouse gestures, super drag, wheel gestures, rocker gestures."
    },
    "dholdkey": {
-      "message": "Assign a key to disable Super Drag:"
+      "message": "Assign a key to disable super drag"
    },
    "direct": {
-      "message": "Show Direction"
+      "message": "Show direction"
    },
    "donate": {
       "message": "Support"
@@ -327,10 +336,10 @@
       "message": "Image saving..."
    },
    "drag": {
-      "message": "Super Drag"
+      "message": "Super drag"
    },
    "draginput": {
-      "message": "Enable Drag-Text for TextBox."
+      "message": "Enable drag-text for textbox"
    },
    "dragui": {
       "message": "Appearance"
@@ -339,28 +348,28 @@
       "message": "Edit gestures"
    },
    "editimage": {
-      "message": "Drag-Image"
+      "message": "Drag-image"
    },
    "editlink": {
-      "message": "Drag-Link"
+      "message": "Drag-link"
    },
    "editsgsleft": {
-      "message": "Wheel Gestures LEFT\u003Cbr />\u003Cspan class='opttitledes'>(Hold left button, and scroll)\u003C/span>"
+      "message": "Wheel gestures left \u003Cspan class='opttitledes'>(hold left button and scroll)\u003C/span>"
    },
    "editsgsright": {
-      "message": "Wheel Gestures RIGHT\u003Cbr />\u003Cspan class='opttitledes'>(Hold right button, and scroll.)\u003C/span>"
+      "message": "Wheel gestures right \u003Cspan class='opttitledes'>(hold right button and scroll)\u003C/span>"
    },
    "edittext": {
-      "message": "Drag-Text"
+      "message": "Drag-text"
    },
    "enabledragimage": {
-      "message": "Enable Drag-Image"
+      "message": "Enable drag-image"
    },
    "enabledraglink": {
-      "message": "Enable Drag-Link"
+      "message": "Enable drag-link"
    },
    "enabledragtext": {
-      "message": "Enable Drag-Text"
+      "message": "Enable drag-text"
    },
    "enableui": {
       "message": "Enable"
@@ -378,25 +387,25 @@
       "message": "All of the questions, comments or suggestions, please contact with me by \u003Cbr />Email: \u003Ca href='mailto:weknownet@gmail.com' target='_blank'>weknownet@gmail.com\u003C/a> ."
    },
    "extnamejson": {
-      "message": "CrxMouse"
+      "message": "crxMouse"
    },
    "extthanks": {
-      "message": "\r\n\t\t> os0x\u003C/a>\u003C/a>\u003Cbr />\r\n\t\t> ArcCosine\u003C/a>\u003C/a>\u003Cbr />\r\n\t\t> Jan Odvarko\u003C/a>\u003C/a>\u003Cbr />\r\n\t\t> Thanks to those who enjoy this extension and/or send me feedbacks to improve this extension"
+      "message": "os0x\u003C/a>\u003C/a>\u003Cbr />ArcCosine\u003C/a>\u003C/a>\u003Cbr />Jan Odvarko\u003C/a>\u003C/a>\u003Cbr />Thanks to those who enjoy this extension and / or send me feedbacks to improve this extension"
    },
    "fastreset": {
-      "message": "something is wrong,the extension can't work, click here to reset to default configuration!if it still cant work,please update chrome to the latest version (V23+),and retry."
+      "message": "Something is wrong, the extension can't work, click here to reset to default configuration! If it still cant work, please update chrome to the latest version (V23+), and retry."
    },
    "feedback": {
       "message": "Feedback"
    },
    "fndrag": {
-      "message": "Enable Super Drag"
+      "message": "Enable super drag"
    },
    "fngesture": {
-      "message": "Enable Mouse Gestures"
+      "message": "Enable mouse gestures"
    },
    "fnscroll": {
-      "message": "Enable Scrolling "
+      "message": "Enable scrolling "
    },
    "fnscrollgesture": {
       "message": "Enable wheel gestures"
@@ -411,13 +420,13 @@
       "message": "Enable background tab"
    },
    "fnswitch": {
-      "message": "Enable CrxMouse"
+      "message": "Enable crxMouse"
    },
    "geskey": {
-      "message": "Which key for Mouse Gestures:"
+      "message": "Which key for mouse gestures"
    },
    "geskeydes": {
-      "message": "Note:1,Its just a alternative for Linux/Mac users who can't use right button; windows users are not recommended to change this;\u003Cbr />2,Many problems occurred,eg:can't select text or use Super Drag-text or Mouse Gestures on images and links.Then ,you may need the setting below."
+      "message": "Alternative for Linux / Mac users who can't use right button, not recommended on Windows."
    },
    "geskeyleft": {
       "message": "Left mouse button"
@@ -429,31 +438,28 @@
       "message": "Right mouse button"
    },
    "gesture": {
-      "message": "Mouse Gestures"
+      "message": "Mouse gestures"
    },
    "gestureui": {
       "message": "Appearance"
    },
    "gholdkey": {
-      "message": "Assign a key to disable Mouse Gestures:"
+      "message": "Assign a key to disable mouse gestures"
    },
    "head": {
-      "message": "Head"
+      "message": "First"
    },
    "help": {
       "message": "Help"
-   },
-   "howtablist": {
-      "message": "How to use Tab list:"
    },
    "image": {
       "message": "Image"
    },
    "imgfirst": {
-      "message": "Assign a key to use Super Drag-image instead of drag-link :"
+      "message": "Assign a key to use super drag-image instead of drag-link"
    },
    "imgfirstcheck": {
-      "message": "If the link contains image,use Super Drag-image instead of drag-link"
+      "message": "If the link contains image, use super drag-image instead of drag-link"
    },
    "import": {
       "message": "Import"
@@ -471,13 +477,13 @@
       "message": "Link"
    },
    "linuxsettings": {
-      "message": "Linux/Mac options"
+      "message": "Linux / Mac options"
    },
    "listaction": {
-      "message": "Action:"
+      "message": "Action"
    },
    "listgesture": {
-      "message": "Gesture:"
+      "message": "Gesture"
    },
    "local": {
       "message": "en"
@@ -486,25 +492,61 @@
       "message": "false"
    },
    "minilength": {
-      "message": "Minimum length of track (px):"
+      "message": "Minimum length of track (in pixels)"
+   },
+   "labmoreTarget": {
+      "message": "Target"
+   },
+   "labmoreTsearch": {
+      "message": "Tsearch"
+   },
+   "labmoreIsearch": {
+      "message": "Isearch"
+   },
+   "labmoreChromepage": {
+      "message": "Chromepage"
+   },
+   "labmorePosition": {
+      "message": "New tab position"
+   },
+   "labmorePinned": {
+      "message": "Pinned"
+   },
+   "labmoreCapturetype": {
+      "message": "Format"
+   },
+   "labmoreCloseopts": {
+      "message": "Close window if last tab"
+   },
+   "labmoreClosesel": {
+      "message": "Next tab"
+   },
+   "labmoreDes": {
+      "message": "Action name"
+   },
+   "labmoreCloseurl": {
+      "message": "Url"
+   },
+   "labmoreMatch": {
+      "message": "Matching words"
    },
    "moreCapturetypetitle": {
       "message": "Image type"
    },
    "moreChromepagetitle": {
-      "message": "Chrome internal address,like:\"chrome://...\""
+      "message": "Chrome internal address, like:\"chrome://...\""
    },
    "moreCloseoptstitle": {
-      "message": "Close the Window after the last tab is closed?"
+      "message": "Close the window after the last tab is closed?"
    },
    "moreCloseseltitle": {
-      "message": "which tab to select after closing the current tab?"
+      "message": "Which tab to select after closing the current tab?"
    },
    "moreCloseurltitle": {
       "message": "URL, if you do not close the Chrome window, then open this URL"
    },
    "moreCopystyletitle": {
-      "message": "custom format, Use \"%title\" to instead of the title/words, \"%url\" to instead of the site url, newline with \"\\n\""
+      "message": "Custom format, use \"%title\" to instead of the title / words, \"%url\" to instead of the site url, newline with \"\\n\""
    },
    "moreDes": {
       "message": "Function prompt text, use \"%name\" instead of keywords"
@@ -513,7 +555,7 @@
       "message": "Action name"
    },
    "moreIsearchtitle": {
-      "message": "Image Search Engines"
+      "message": "Image search engines"
    },
    "moreName": {
       "message": "Name"
@@ -522,7 +564,7 @@
       "message": "Name"
    },
    "morePinnedtitle": {
-      "message": "Pin/Unpin the tab"
+      "message": "Pin / unpin the tab"
    },
    "morePositiontitle": {
       "message": "New tab's position relative to the current tab"
@@ -537,16 +579,16 @@
       "message": "Position"
    },
    "moreTargettitle": {
-      "message": "The way to open new tab:new/current tab,Front/Background"
+      "message": "The way to open new tab:new / current tab, front / background"
    },
    "moreTsearchtitle": {
-      "message": "Text Search Engines"
+      "message": "Text search engines"
    },
    "moreURL": {
       "message": "URL"
    },
    "moreURLtitle": {
-      "message": "URL,Use \"%s\" instead of keywords"
+      "message": "URL, use \"%s\" instead of keywords"
    },
    "moreaboutdrag": {
       "message": "More.."
@@ -555,28 +597,28 @@
       "message": "Current tab"
    },
    "morenew": {
-      "message": "New tab & Front"
+      "message": "New tab & front"
    },
    "morenewback": {
-      "message": "New tab & Background"
+      "message": "New tab & background"
    },
    "moresettings": {
       "message": "Miscellaneous"
    },
    "morestrges": {
-      "message": "detailed settings"
+      "message": "Detailed settings"
    },
    "msgbox": {
-      "message": "Configuration Saved! Some changes will be applied after reloading."
+      "message": "Configuration saved! Some changes will be applied after reloading."
    },
    "newadd": {
       "message": "New"
    },
    "newback": {
-      "message": "New tab & Background"
+      "message": "New tab & background"
    },
    "newfront": {
-      "message": "New tab & Front"
+      "message": "New tab & front"
    },
    "newgesture": {
       "message": "Add new"
@@ -585,10 +627,10 @@
       "message": "Open %name"
    },
    "normal": {
-      "message": "General Settings"
+      "message": "General settings"
    },
    "opa": {
-      "message": "Transparency:"
+      "message": "Transparency"
    },
    "optgrpapp": {
       "message": "APP"
@@ -621,7 +663,7 @@
       "message": "Tab"
    },
    "optgrptabnav": {
-      "message": "Tab Navigation"
+      "message": "Tab navigation"
    },
    "optgrpwindow": {
       "message": "Window"
@@ -630,7 +672,7 @@
       "message": "Pin"
    },
    "placeholderconfig": {
-      "message": "Paste the configuration to here and then click Import to complete the import; configuration will be displayed after clicking Export and available for further use"
+      "message": "Paste the exported settings here and click \"Import\" to complete the import\nSettings will be displayed after clicking \"Export\" and available for further use"
    },
    "placeholdername": {
       "message": "Name"
@@ -639,7 +681,7 @@
       "message": "Script"
    },
    "placeholdersearchurl": {
-      "message": "URL,use %s instead of keywords"
+      "message": "URL, use %s instead of keywords"
    },
    "placeholdertooltip": {
       "message": "Action name"
@@ -648,13 +690,13 @@
       "message": "URL"
    },
    "port": {
-      "message": "Import/Export configuration"
+      "message": "Import / export settings"
    },
    "porttip": {
-      "message": "Note: 1. importing configuration results in a restart of this extension, the opened tabs need to be reloaded to apply this extension! \u003Cbr /> 2.You may only import configuration that is exported from here,It's not recommended to edit it by yourself. \u003Cbr /> 3.In case of an error, please reset to the default configuration. "
+      "message": "Importing settings results in a restart of this extension, the opened tabs need to be reloaded to apply this extension! In case of an error, please reset to the default settings"
    },
    "poschrome": {
-      "message": "Chrome Default"
+      "message": "Chrome default"
    },
    "poshead": {
       "message": "Head"
@@ -675,13 +717,22 @@
       "message": "Reset"
    },
    "resetall": {
-      "message": "Reset All"
+      "message": "Reset all"
    },
    "resetpage": {
       "message": "Reset this page"
    },
+   "resetallconfirmation": {
+      "message": "Confirm all settings reset?"
+   },
+   "resetpageconfirmation": {
+      "message": "Confirm this page settings reset?"
+   },
+   "syncclearconfirmation": {
+      "message": "Confirm synced data clearing?"
+   },
    "resettip": {
-      "message": "Note: This operation will clear all configuration and reset the configuration to the default and the operation can not be undone, so,be careful!"
+      "message": "This operation will clear and reset the settings to their defaults, the operation can not be undone, so be careful!"
    },
    "right": {
       "message": "Right"
@@ -696,19 +747,19 @@
       "message": "Baidu"
    },
    "sbaiduimage": {
-      "message": "Baidu Search with an image"
+      "message": "Baidu search with an image"
    },
    "sbing": {
       "message": "Bing"
    },
    "scractdown": {
-      "message": "Scroll Down:"
+      "message": "Scroll down"
    },
    "scractup": {
-      "message": "Scroll Up:"
+      "message": "Scroll up"
    },
    "scriptdes": {
-      "message": "Run script :%name"
+      "message": "Run script: %name"
    },
    "scroll": {
       "message": "Scrolling"
@@ -717,19 +768,19 @@
       "message": "Scroll acceleration"
    },
    "scrolleffects": {
-      "message": "With Effects( for page up/down/top/bottom)."
+      "message": "With effects (for page up / down / top / bottom)"
    },
    "scrollgesture": {
-      "message": "Wheel Gestures"
+      "message": "Wheel gestures"
    },
    "scrollspeed": {
       "message": "Scroll speed"
    },
    "searchdes": {
-      "message": "Use %name to search:\"%s\""
+      "message": "Use %name to search: \"%s\""
    },
    "setdragurl": {
-      "message": "Enable Drag-Link if the string is recognized as a link(experimental)."
+      "message": "Enable drag-link if the string is recognized as a link (experimental)"
    },
    "settings": {
       "message": "Settings"
@@ -738,7 +789,7 @@
       "message": "Google"
    },
    "sgoogleimage": {
-      "message": "Google Search with an image"
+      "message": "Google search with an image"
    },
    "site": {
       "message": "Website"
@@ -750,19 +801,19 @@
       "message": "Taobao"
    },
    "stars": {
-      "message": "CrxMouse is nice? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>Leave a 5 star rating!\u003C/a>"
+      "message": "crxMouse is nice? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>Leave a 5 star rating!\u003C/a>"
    },
    "stenable": {
-      "message": "Enable select text while holding the left mouse(It makes Mouse Gestures invalid sometimes)"
+      "message": "Enable text selection while holding the left mouse (it makes mouse gestures invalid sometimes)<br><span class='alttext'>Alternative for Linux / Mac users who can't use right button, not recommended on Windows</span>"
    },
    "stineyeimage": {
       "message": "TinEye"
    },
    "stractleft": {
-      "message": "Click left button:"
+      "message": "Click left button"
    },
    "stractmiddle": {
-      "message": "Click middle button:"
+      "message": "Click middle button"
    },
    "stractright": {
       "message": "Click right button"
@@ -774,13 +825,13 @@
       "message": "Hold middle button"
    },
    "stroke": {
-      "message": "Show Mouse Track"
+      "message": "Show mouse track"
    },
    "strokegesture": {
-      "message": "Rocker Gestures"
+      "message": "Rocker gestures"
    },
    "strpress": {
-      "message": "When is the action be triggered:"
+      "message": "When is the action be triggered"
    },
    "strpressdown": {
       "message": "Mouse down"
@@ -804,67 +855,73 @@
       "message": "Sync configuration"
    },
    "syncdes": {
-      "message": "The configuration will be automatically synced with Chrome for user \u003Ca href=\"https://accounts.google.com/ServiceLogin?service=chromiumsync\" target=\"_blank\">logged into\u003C/a>, provided user has sync enabled."
+      "message": "Configuration is automatically synced with Chrome user \u003Ca href=\"https://accounts.google.com/ServiceLogin?service=chromiumsync\" target=\"_blank\">logged into\u003C/a>, provided user has sync enabled"
    },
    "tablist": {
       "message": "Tab list"
    },
    "tablistkeyleft": {
-      "message": "Hold left button and scroll."
+      "message": "Hold left button and scroll"
    },
    "tablistkeyright": {
-      "message": "Hold right button and scroll."
+      "message": "Hold right button and scroll"
    },
    "testlink": {
-      "message": "Testing Link"
+      "message": "Testing link"
    },
    "testwords": {
-      "message": "Testing Strings"
+      "message": "Testing strings"
    },
    "text": {
       "message": "Text"
    },
    "thanks": {
-      "message": "Thanks"
+      "message": "Thanks to"
    },
    "time": {
-      "message": "Duration"
+      "message": "Duration (in seconds)"
    },
    "timeout": {
       "message": "Timeout"
    },
    "titlechromepage": {
-      "message": "Action name tooltip,Use \"%name\" instead of Chrome internal address"
+      "message": "Action name tooltip, use \"%name\" instead of Chrome internal address"
    },
    "titlecopyuser": {
       "message": "Action name tooltip, use \"%name\" to instead of the custom format name"
    },
    "titleisearch": {
-      "message": "Action name tooltip,Use \"%name\" instead of search engine name"
+      "message": "Action name tooltip, use \"%name\" instead of search engine name"
    },
    "titlenewusertab": {
-      "message": "Action name tooltip,Use \"%name\" instead of site name"
+      "message": "Action name tooltip, use \"%name\" instead of site name"
    },
    "titlenexpre": {
       "message": "Matching words, separate multiple words with\"|\", and the extension will detect rel, rev, id, innerHTML, title, class by turn."
    },
    "titlesearchuser": {
-      "message": "URL,Use\"%s\" instead of then key words"
+      "message": "URL, use\"%s\" instead of then key words"
    },
    "titletsearch": {
-      "message": "Action name tooltip,Use \"%name\" instead of search engine,\"%s\" instead of content"
+      "message": "Action name tooltip, use \"%name\" instead of search engine,\"%s\" instead of content"
    },
    "titleuserscript": {
-      "message": "Action name tooltip,Use \"%name\" instead of script name"
+      "message": "Action name tooltip, use \"%name\" instead of script name"
    },
    "tooltip": {
-      "message": "Display Action Name"
+      "message": "Display action name"
    },
    "translate": {
       "message": "Translate"
    },
    "unclose": {
       "message": "Do not close, and open the following URL"
+   },
+   "yes": {
+      "message": "Yes"
+   },
+   "no": {
+      "message": "No"
    },
    "unpinned": {
       "message": "Unpin"
@@ -885,15 +942,15 @@
       "message": "Use %name to search \"%s\""
    },
    "valueuserscript": {
-      "message": "Run the script:\"%name\""
+      "message": "Run the script"
    },
    "version": {
       "message": "Version"
    },
    "whencapture": {
-      "message": "When use the Screenshot operations:"
+      "message": "When use the screenshot operations:"
    },
    "width": {
-      "message": "Width:"
+      "message": "Width"
    }
 }

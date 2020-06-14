@@ -1194,10 +1194,6 @@ function liclick(e) {
   if (target.id == "liabout") {
     chrome.runtime.requestUpdateCheck(function(status, details) {});
   }
-
-  if (document.getElementById("supportdev")) {
-    document.getElementById("supportdev").id = "";
-  }
 }
 
 /**/

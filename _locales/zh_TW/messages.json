@@ -398,18 +398,6 @@
    "direct": {
       "message": "顯示軌跡方向提示"
    },
-   "donate": {
-      "message": "支持開發"
-   },
-   "donate1": {
-      "message": "1,通過作者的淘寶店鋪\u003Ca href='http://shop102995334.taobao.com' target='_blank'>充話費,購點卡,買Q幣\u003C/ a>等;"
-   },
-   "donate2": {
-      "message": "3,捐贈作者以支持開發:"
-   },
-   "donatedes": {
-      "message": "如果你覺得CrxMouse還不錯,給你帶來了方便,可以通過以下方式支持作者開發,有您的支持,才有我繼續的動力:"
-   },
    "downimgtooltip": {
       "message": "正在保存圖片..."
    },
@@ -850,9 +838,6 @@
    },
    "staobao": {
       "message": "淘寶"
-   },
-   "stars": {
-      "message": "喜歡這個擴充功能? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>給CrxMouse評分\u003C/a>"
    },
    "stenable": {
       "message": "使用左鍵時,可以選中文字(勾選此項,會造成很多時候滑鼠手勢失效!)"

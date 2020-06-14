@@ -311,18 +311,6 @@
    "direct": {
       "message": "Montrer les directions"
    },
-   "donate": {
-      "message": "Soutiens"
-   },
-   "donate1": {
-      "message": ""
-   },
-   "donate2": {
-      "message": ""
-   },
-   "donatedes": {
-      "message": "Si vous appréciez mon travail, vous pouvez le soutenir en faisant un don."
-   },
    "downimgtooltip": {
       "message": "Enregistrement de l'image..."
    },
@@ -745,9 +733,6 @@
    },
    "staobao": {
       "message": "Taobao"
-   },
-   "stars": {
-      "message": "CrxMouse vous plait ? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>Laissez une note de 5 étoiles !\u003C/a>"
    },
    "stenable": {
       "message": "Activer la sélection de texte lorsque le bouton gauche de la souris est enfoncé (rend parfois certains raccourcis souris invalides)"

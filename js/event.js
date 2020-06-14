@@ -712,6 +712,7 @@ chrome.extension.sendMessage(
               svgdiv.style.width = window.innerWidth + "px";
               svgdiv.style.height = window.innerHeight + "px";
 
+              svgdiv.style.transform = "none";
               svgdiv.style.position = "fixed";
               svgdiv.style.left = "0px";
               svgdiv.style.top = "0px";
@@ -1135,6 +1136,7 @@ chrome.extension.sendMessage(
               svgdiv.style.width = window.innerWidth + "px";
               svgdiv.style.height = window.innerHeight + "px";
 
+              svgdiv.style.transform = "none";
               svgdiv.style.position = "fixed";
               svgdiv.style.left = "0px";
               svgdiv.style.top = "0px";

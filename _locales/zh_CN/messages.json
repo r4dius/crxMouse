@@ -299,18 +299,6 @@
    "direct": {
       "message": "显示轨迹方向提示"
    },
-   "donate": {
-      "message": "支持开发"
-   },
-   "donate1": {
-      "message": ""
-   },
-   "donate2": {
-      "message": "&nbsp;&nbsp;现金捐赠作者以支持开发:"
-   },
-   "donatedes": {
-      "message": "如果你觉得CrxMouse还不错,给你带来了方便,可以通过以下方式支持作者开发,有您的支持,才有我继续的动力:"
-   },
    "downimgtooltip": {
       "message": "正在保存图片..."
    },
@@ -697,9 +685,6 @@
    },
    "staobao": {
       "message": "淘宝"
-   },
-   "stars": {
-      "message": "喜欢这个扩展? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>给CrxMouse评分\u003C/a>"
    },
    "stenable": {
       "message": "使用左键时,可以选中文字(勾选此项,会造成很多时候鼠标手势失效!)"

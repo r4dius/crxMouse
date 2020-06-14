@@ -311,18 +311,6 @@
    "direct": {
       "message": "Show Direction"
    },
-   "donate": {
-      "message": "Support"
-   },
-   "donate1": {
-      "message": ""
-   },
-   "donate2": {
-      "message": ""
-   },
-   "donatedes": {
-      "message": "If you appreciate my work, you can support it by donation."
-   },
    "downimgtooltip": {
       "message": "Image saving..."
    },
@@ -769,9 +757,6 @@
    },
    "staobao": {
       "message": "Taobao"
-   },
-   "stars": {
-      "message": "CrxMouse is nice? \u003Ca href='https://chrome.google.com/webstore/detail/mjidkpedjlfnanainpdfnedkdlacidla' target='_blank' id='tostar'>Leave a 5 star rating!\u003C/a>"
    },
    "stenable": {
       "message": "Enable select text while holding the left mouse (it makes Mouse Gestures invalid sometimes)"
